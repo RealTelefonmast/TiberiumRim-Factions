@@ -68,8 +68,8 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>TR.PlaceWorker_OnlyOutside</li>
-			<li>TR.PlaceWorker_Once</li>
+			<li>TeleCore.PlaceWorker_OnlyOutside</li>
+			<li>TeleCore.PlaceWorker_Once</li>
 		</placeWorkers>
 		<requisites>
 			<tiberiumResearch>
@@ -157,7 +157,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<size>(5,5)</size>
 		<placeWorkers>
-			<li>TR.PlaceWorker_Once</li>
+			<li>TeleCore.PlaceWorker_Once</li>
 			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>

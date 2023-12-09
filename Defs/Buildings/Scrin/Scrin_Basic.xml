@@ -54,7 +54,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 		</building>
 		<placeWorkers>
-			<li>TR.PlaceWorker_OnlyOutside</li>
+			<li>TeleCore.PlaceWorker_OnlyOutside</li>
 		</placeWorkers>
 		<modExtensions>
 			<li Class="TeleCore.FXDefExtension">

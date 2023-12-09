@@ -59,7 +59,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<placeWorkers>
-			<li>TR.PlaceWorker_Gap</li>
+			<li>TeleCore.PlaceWorker_Gap</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<modExtensions>
@@ -87,7 +87,7 @@
 			</tiberiumResearch>
 		</requisites>
 		<comps>
-			<li Class="TR.CompProperties_GlowerOffset">
+			<li Class="TeleCore.CompProperties_GlowerOffset">
 				<glowerDef>GlowSource_GDI_IonBlue</glowerDef>
 			</li>
 			<li Class="TeleCore.CompProperties_FX"> 

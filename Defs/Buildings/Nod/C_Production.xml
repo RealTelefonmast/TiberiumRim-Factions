@@ -50,13 +50,12 @@
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>300</basePowerConsumption>
 			</li>
-			<li Class="TR.CompProperties_TNS">
+<!--			<li Class="TR.CompProperties_TNS">
 				<networks>
 					<li>
 						<networkDef>TiberiumNetwork</networkDef>				
 						<volumeConfig>
 							<capacity>1000</capacity>
-							<!--<dropContents>true</dropContents>-->
 							<leaveContainer>true</leaveContainer>
 							<values>
 								<allowedValues>
@@ -73,8 +72,7 @@
 						</roles>
 					</li>
 				</networks>
-				<!--generalIOPattern>#+#|###|</generalIOPattern-->
-			</li>
+			</li>-->
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -256,7 +254,7 @@
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
-			<li>TR.PlaceWorker_Once</li>
+			<li>TeleCore.PlaceWorker_Once</li>
 		</placeWorkers>
 	</TR.TRThingDef>-->
 

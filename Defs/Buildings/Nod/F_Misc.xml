@@ -72,7 +72,7 @@
 			</tiberiumResearch>
 		</requisites>
 		<comps>
-			<li Class="TR.CompProperties_GlowerOffset">
+			<li Class="TeleCore.CompProperties_GlowerOffset">
 				<glowerDef>GlowSource_Nod_Red</glowerDef>
 			</li>
 			<li Class="TeleCore.CompProperties_FX"> 

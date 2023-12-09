@@ -101,8 +101,8 @@
 		<specialDisplayRadius>39.9</specialDisplayRadius>
 		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
 		<placeWorkers>
-			<li>TR.PlaceWorker_OnlyOutside</li>
-			<li>TR.PlaceWorker_Once</li>
+			<li>TeleCore.PlaceWorker_OnlyOutside</li>
+			<li>TeleCore.PlaceWorker_Once</li>
 		</placeWorkers>
 		<requisites>
 			<tiberiumResearch>
