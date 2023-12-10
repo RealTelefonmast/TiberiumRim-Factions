@@ -64,45 +64,4 @@
     </butcherProducts>
   </ThingDef>
 
-  <TR.TRThingDef ParentName="HarvesterBase">
-		<defName>Harvester_GDI</defName>
-		<label>GDI harvester</label>	
-		<description>An armored tiberium harvester designed by GDI, it will seek out the closest most valuable Tiberium of any type unless told to do otherwise.</description>
-		<comps>
-			<li Class="TeleCore.CompProperties_FX"> 		
-				<fxLayers>
-					<li>
-						<graphicData>
-							<texPath>Pawns/Mechanical/GDI/Harvester/FX/HG</texPath>
-							<graphicClass>Graphic_Multi</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(3,3)</drawSize>
-						</graphicData>
-						<fxMode>Dynamic</fxMode>
-					</li>
-				</fxLayers>			
-			</li>
-		</comps>
-		<statBases>
-			<MoveSpeed>2.5</MoveSpeed>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-		</statBases>
-		<race>
-			<body>HarvesterBody_GDI</body>
-		</race>
-		<tools>
-			<li>
-				<label>dozer</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>20</power>
-				<cooldownTime>3.5</cooldownTime>
-				<linkedBodyPartsGroup>Dozer</linkedBodyPartsGroup>
-				<chanceFactor>0.2</chanceFactor>
-			</li>
-		</tools>
-	</TR.TRThingDef>
-
 </Defs>

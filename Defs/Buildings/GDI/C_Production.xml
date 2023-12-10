@@ -101,7 +101,6 @@
 		</modExtensions>
 	</TR.TRThingDef>
 	
-	<!--
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>GDI_Hangar</defName>
 		<label>GDI hangar</label>
@@ -113,7 +112,7 @@
 		<graphicData>
 			<texPath>Buildings/GDI/Production/Hangar/Base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>7,7)</drawSize>
+			<drawSize>7,7</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -186,5 +185,5 @@
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>
-	-->
+
 </Defs>
