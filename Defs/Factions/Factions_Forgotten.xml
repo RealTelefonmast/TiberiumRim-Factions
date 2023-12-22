@@ -44,7 +44,7 @@
 		<li>(1, 1, 1)</li>
 	</colorSpectrum>
 	<caravanTraderKinds>
-		<li>Caravan_Tiberium_BulkGoods</li>
+		<li MayRequire="telefonmast.tiberiumrim.main">Caravan_Tiberium_BulkGoods</li>
 	</caravanTraderKinds>
 	<visitorTraderKinds>
 		<li>Visitor_Outlander_Standard</li>
@@ -113,7 +113,7 @@
 				<Forgotten_Trader>1</Forgotten_Trader>
 			</traders>
 			<carriers>
-				<Tiffalo>10</Tiffalo>
+				<Tiffalo MayRequire="telefonmast.tiberiumrim.main">10</Tiffalo>
 			</carriers>
 			<guards>
 				<Forgotten_BadMutant>40</Forgotten_BadMutant>

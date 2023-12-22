@@ -78,7 +78,7 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<requisites>
 			<tiberiumResearch>
-				<li>TiberiumSuppressionBasic</li>
+				<li MayRequire="telefonmast.tiberiumrim.main">TiberiumSuppressionBasic</li>
 				<li>GDIExperimental3</li>
 			</tiberiumResearch>
 		</requisites>

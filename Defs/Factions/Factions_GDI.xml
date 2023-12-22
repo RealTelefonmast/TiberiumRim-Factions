@@ -50,9 +50,9 @@
 		<li>(1, 1, 1)</li>
 	</colorSpectrum>
 	<caravanTraderKinds>
-		<li>Caravan_Tiberium_BulkGoods</li>
-		<li>Caravan_Tiberium_CombatSupplier</li>
-		<li>Caravan_Tiberium_Exotic</li>
+		<li MayRequire="telefonmast.tiberiumrim.main">Caravan_Tiberium_BulkGoods</li>
+		<li MayRequire="telefonmast.tiberiumrim.main">Caravan_Tiberium_CombatSupplier</li>
+		<li MayRequire="telefonmast.tiberiumrim.main">Caravan_Tiberium_Exotic</li>
 	</caravanTraderKinds>
 	<visitorTraderKinds>
 		<li>Visitor_GDI_Standard</li>
@@ -134,7 +134,7 @@
 				<GDI_Trader>1</GDI_Trader>
 			</traders>
 			<carriers>
-				<Tiffalo>10</Tiffalo>
+				<Tiffalo MayRequire="telefonmast.tiberiumrim.main">10</Tiffalo>
 			</carriers>
 			<guards>
 				<GDI_Citizen>30</GDI_Citizen>

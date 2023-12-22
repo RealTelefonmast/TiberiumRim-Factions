@@ -28,9 +28,9 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicResistance>0.6</ToxicResistance>
-			<TiberiumGasResistance>0.6</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.1</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.1</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>4</scoreOffset>
@@ -115,9 +115,9 @@
 		<equippedStatOffsets>
 			<Flammability>-0.2</Flammability>
 			<ToxicResistance>0.1</ToxicResistance>
-			<TiberiumGasResistance>0.1</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.6</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.6</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumRadiationResistance>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<apparel>
@@ -181,9 +181,9 @@
 		<equippedStatOffsets>
 			<SocialImpact>0.1</SocialImpact>
 			<ToxicResistance>0.6</ToxicResistance>
-			<TiberiumGasResistance>0.6</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.1</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.1</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>3</scoreOffset>
@@ -248,9 +248,9 @@
 		<equippedStatOffsets>
 			<SocialImpact>0.15</SocialImpact>
 			<ToxicResistance>0.1</ToxicResistance>
-			<TiberiumGasResistance>0.1</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.4</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.4</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.4</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.4</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>3</scoreOffset>
@@ -316,9 +316,9 @@
 			<GlobalLearningFactor>0.5</GlobalLearningFactor>
 			<ResearchSpeed>0.25</ResearchSpeed>
 			<ToxicResistance>0.6</ToxicResistance>
-			<TiberiumGasResistance>0.6</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.1</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.1</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>3</scoreOffset>
@@ -384,9 +384,9 @@
 			<WorkSpeedGlobal>1</WorkSpeedGlobal>
 			<ConstructionSpeed>1</ConstructionSpeed>
 			<ToxicResistance>0.1</ToxicResistance>
-			<TiberiumGasResistance>0.1</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.4</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.4</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.4</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.4</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>3</scoreOffset>
@@ -486,9 +486,9 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
 			<ToxicResistance>0.9</ToxicResistance>
-			<TiberiumGasResistance>0.9</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.1</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.1</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.9</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<scoreOffset>4</scoreOffset>
@@ -553,9 +553,9 @@
 			<Flammability>-0.6</Flammability>
 			<ExtraCarryWeight>150</ExtraCarryWeight>
 			<ToxicResistance>0.1</ToxicResistance>
-			<TiberiumGasResistance>0.1</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.9</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.9</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.9</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.9</TiberiumRadiationResistance>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.5</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<thingCategories>

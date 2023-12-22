@@ -85,7 +85,7 @@
 		</modExtensions>
 	</TR.TRThingDef>
 
-	<TR.TRThingDef ParentName="BaseBullet_TR">
+<!--	<TR.TRThingDef ParentName="BaseBullet_TR">
 		<defName>Bullet_FlamethrowerTower</defName>
 		<label>flame</label>
 		<thingClass>TR.Projectile_ThrownFlame</thingClass>
@@ -104,7 +104,7 @@
 			<speed>12</speed>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
 		</projectile>
-	</TR.TRThingDef>
+	</TR.TRThingDef>-->
 	
 	<TR.TRThingDef ParentName="BaseBullet_TR">
 		<defName>Bullet_Flamethrower</defName>
@@ -156,7 +156,7 @@
 			<speed>15</speed>
 			<shadowSize>1.8</shadowSize>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
-			<postExplosionSpawnThingDef>Gas_ChemicalInterface</postExplosionSpawnThingDef>
+			<postExplosionSpawnThingDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</postExplosionSpawnThingDef>
 			<postExplosionSpawnChance>0.15</postExplosionSpawnChance>
 			<!--<explosionRadius>0.05</explosionRadius>
 			<preExplosionSpawnThingDef>FilthTibLiquidGreen</preExplosionSpawnThingDef>
@@ -213,7 +213,7 @@
 			<explosionDelay>65</explosionDelay>
 			<speed>15</speed>
 			<arcHeightFactor>1.5</arcHeightFactor>
-			<preExplosionSpawnThingDef>Gas_ChemicalInterface</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
 			<soundExplode>Nod_ChemBomb</soundExplode>
 			<shadowSize>0.5</shadowSize>

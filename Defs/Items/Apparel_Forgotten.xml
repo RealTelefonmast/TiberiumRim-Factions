@@ -31,9 +31,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
 			<ToxicResistance>0.05</ToxicResistance>
-			<TiberiumGasResistance>0.05</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.05</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.05</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.05</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.05</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.05</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -92,9 +92,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 			<ToxicResistance>0.1</ToxicResistance>
-			<TiberiumGasResistance>0.1</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.6</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.6</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -148,9 +148,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
 			<ToxicResistance>0.6</ToxicResistance>
-			<TiberiumGasResistance>0.6</TiberiumGasResistance>
-			<TiberiumInfectionResistance>0.1</TiberiumInfectionResistance>
-			<TiberiumRadiationResistance>0.1</TiberiumRadiationResistance>
+			<TiberiumGasResistance MayRequire="telefonmast.tiberiumrim.main">0.6</TiberiumGasResistance>
+			<TiberiumInfectionResistance MayRequire="telefonmast.tiberiumrim.v">0.1</TiberiumInfectionResistance>
+			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

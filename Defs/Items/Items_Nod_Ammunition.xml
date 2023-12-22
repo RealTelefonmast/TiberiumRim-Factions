@@ -27,7 +27,7 @@
 				<explosiveRadius>5.9</explosiveRadius>
 				<damageAmountBase>500</damageAmountBase>
 				<explosiveDamageType>TRNuke</explosiveDamageType>
-				<postExplosionSpawnThingDef>TiberiumGas</postExplosionSpawnThingDef>
+				<postExplosionSpawnThingDef MayRequire="telefonmast.tiberiumrim.main">TiberiumGas</postExplosionSpawnThingDef>
 				<postExplosionSpawnChance>0.25</postExplosionSpawnChance>
 				<explosionEffect>GiantExplosion</explosionEffect>
 				<wickTicks>

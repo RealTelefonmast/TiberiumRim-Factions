@@ -15,7 +15,7 @@
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Beauty>-25</Beauty>
-			<TiberiumDamageResistance>0.9</TiberiumDamageResistance>
+			<TiberiumDamageResistance MayRequire="telefonmast.tiberiumrim.main">0.9</TiberiumDamageResistance>
 		</statBases>
 		<costList>
 			<GDI_ReinforcedPlate>10</GDI_ReinforcedPlate>
@@ -52,7 +52,7 @@
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Beauty>-25</Beauty>
-			<TiberiumDamageResistance>0.9</TiberiumDamageResistance>
+			<TiberiumDamageResistance MayRequire="telefonmast.tiberiumrim.main">0.9</TiberiumDamageResistance>
 		</statBases>
 		<costList>
 			<Nod_CarbonPlate>10</Nod_CarbonPlate>
