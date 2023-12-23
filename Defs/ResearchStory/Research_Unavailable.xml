@@ -42,6 +42,7 @@
 		<descriptionShort>Join the Galaxy Defense Initiative.</descriptionShort>
 		<skillRequirements>
 			<Social>6</Social>
+			<Intellectual>6</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetType>Building_CommsConsole</targetType>
@@ -92,7 +93,7 @@
 		<label>Research basic technology</label>
 		<descriptionShort>Research basic technology of the GDI.</descriptionShort>
 		<skillRequirements>
-			<Intellectual>8</Intellectual>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetDefs>
@@ -145,7 +146,7 @@
 		<label>Research advanced technology</label>
 		<descriptionShort>Research advanced technology of the GDI.</descriptionShort>
 		<skillRequirements>
-			<Intellectual>12</Intellectual>
+			<Intellectual>18</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetDefs>
@@ -185,6 +186,7 @@
 		<descriptionShort>Join the Brotherhood of Nod.</descriptionShort>
 		<skillRequirements>
 			<Social>6</Social>
+			<Intellectual>6</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetType>Building_CommsConsole</targetType>
@@ -235,7 +237,7 @@
 		<label>Research basic technology</label>
 		<descriptionShort>Research basic technology of the Nod.</descriptionShort>
 		<skillRequirements>
-			<Intellectual>8</Intellectual>
+			<Intellectual>12</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetDefs>
@@ -288,7 +290,7 @@
 		<label>Research advanced technology</label>
 		<descriptionShort>Study advanced technology of the Nod.</descriptionShort>
 		<skillRequirements>
-			<Intellectual>12</Intellectual>
+			<Intellectual>18</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetDefs>
@@ -325,7 +327,8 @@
 		<label>Join the Forgotten</label>
 		<descriptionShort>Join the Forgotten mutants.</descriptionShort>
 		<skillRequirements>
-			<Social>6</Social>
+			<Social>3</Social>
+			<Intellectual>3</Intellectual>
 		</skillRequirements>
 		<taskTarget>
 			<targetType>Building_CommsConsole</targetType>
