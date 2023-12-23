@@ -21,8 +21,7 @@
 		<defName>GDIExperimental1</defName>
 		<label>Join the GDI</label>
 		<researchType>experimental content</researchType>
-		<description>Unlock the GDI techtree. Most of them are experimental and not meant to be
-			available yet!</description>
+		<description>Unlock the GDI technology.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -58,8 +57,7 @@
 		<defName>GDIExperimental2</defName>
 		<label>GDI Basic</label>
 		<researchType>tech research</researchType>
-		<description>Unlock the basic GDI structures and items. Most of them are experimental and
-			not meant to be available yet!</description>
+		<description>Unlock the basic GDI structures and items.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -111,8 +109,7 @@
 		<defName>GDIExperimental3</defName>
 		<label>GDI Advanced</label>
 		<researchType>tech research</researchType>
-		<description>Unlock the advanced GDI structures and items. Most of them are experimental and
-			not meant to be available yet!</description>
+		<description>Unlock the advanced GDI structures and items.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -165,8 +162,7 @@
 		<defName>NodExperimental1</defName>
 		<label>Join the Nod</label>
 		<researchType>experimental content</researchType>
-		<description>Unlock the Nod techtree. Most of them are experimental and not meant to be
-			available yet!</description>
+		<description>Unlock the Nod technology.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -202,8 +198,7 @@
 		<defName>NodExperimental2</defName>
 		<label>Nod basic</label>
 		<researchType>tech research</researchType>
-		<description>Unlock the basic NOD structures and items. Most of them are experimental and
-			not meant to be available yet!</description>
+		<description>Unlock the basic NOD structures and items.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -255,8 +250,7 @@
 		<defName>NodExperimental3</defName>
 		<label>Nod advanced</label>
 		<researchType>tech research</researchType>
-		<description>Unlock the advanced NOD structures and items. Most of them are experimental and
-			not meant to be available yet!</description>
+		<description>Unlock the advanced NOD structures and items.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
@@ -308,8 +302,7 @@
 		<defName>ForgottenExperimental1</defName>
 		<label>Join the Forgotten</label>
 		<researchType>experimental content</researchType>
-		<description>Unlock the Forgotten techtree. Most of them are experimental and not meant to
-			be available yet!</description>
+		<description>Unlock the Forgotten technology.</description>
 		<relevantPawnStat>ResearchSpeed</relevantPawnStat>
 		<relevantTargetStat>ResearchSpeedFactor</relevantTargetStat>
 		<requisites>
