@@ -33,6 +33,7 @@
 		<costList>
 			<GDI_ReinforcedPlate>30</GDI_ReinforcedPlate>
 			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
 			<Gold>25</Gold>
 		</costList>
 		<comps>
