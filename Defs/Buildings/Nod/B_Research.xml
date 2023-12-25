@@ -30,7 +30,7 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>10000</WorkToBuild>
+			<WorkToBuild>15000</WorkToBuild>
 			<Flammability>1</Flammability>
 		</statBases>
 		<costList>
@@ -58,7 +58,7 @@
 				</fxLayers>
 			</li>
 		</comps>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<requisites>
 			<tiberiumResearch>
 				<li>NodExperimental2</li>

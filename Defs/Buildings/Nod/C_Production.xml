@@ -26,7 +26,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>350</MaxHitPoints>
-			<WorkToBuild>5000</WorkToBuild>
+			<WorkToBuild>7500</WorkToBuild>
 			<Flammability>1</Flammability>
 		</statBases>
 		<costList>
@@ -46,6 +46,7 @@
 		<fillPercent>0.5</fillPercent>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -84,7 +85,7 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<requisites>
 			<tiberiumResearch>
 				<li>NodExperimental1</li>
@@ -98,19 +99,21 @@
 		</modExtensions>
 	</TR.TRThingDef>
 	
+	
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>Nod_Hangar</defName>
-		<label>Nod hangar</label>
+		<label>Nod vehicle drone factory</label>
 		<description>This hangar is used for mechanical unit construction.</description>
 		<size>(5,5)</size>
 		<minifiedDef />
 		<thingCategories Inherit="false" />
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0.5</staticSunShadowHeight>
 		<fillPercent>1</fillPercent>
 		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
-		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Buildings/Nod/Production/Hangar/Base</texPath>
@@ -125,17 +128,18 @@
 		</graphicData>
 		<requisites>
 			<tiberiumResearch>
-				<li>NodExperimental1</li>
+				<li>NodExperimental3</li>
 			</tiberiumResearch>
 		</requisites>
 		<statBases>
-			<MaxHitPoints>1000</MaxHitPoints>
-			<WorkToBuild>5000</WorkToBuild>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
 			<Steel>500</Steel>
 			<ComponentIndustrial>15</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<inspectorTabs>
 			<li>TR.ITab_MechConstruction</li>
