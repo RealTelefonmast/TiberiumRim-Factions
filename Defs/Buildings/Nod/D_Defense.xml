@@ -711,7 +711,6 @@
 		<passability>Impassable</passability>
 	</ThingDef>
 	
-	<!--
 	<TR.TRThingDef ParentName="TrapIEDBase">
 		<defName>IED_Nuke</defName>
 		<label>IED nuke mine</label>
@@ -774,6 +773,6 @@
 				<li>NodExperimental3</li>
 			</tiberiumResearch>
 		</requisites>
-	</TR.TRThingDef>-->
+	</TR.TRThingDef>
 	
 </Defs>

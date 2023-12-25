@@ -17,6 +17,7 @@
 			<WorkToBuild>2000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<requisites>
 			<tiberiumResearch>
 				<li>GDIExperimental1</li>
@@ -42,7 +43,8 @@
 			</linkFlags>
 		</graphicData>
 		<uiIconPath>Buildings/GDI/Structure/Pillbox_GDI_icon</uiIconPath>
-		<passability>Impassable</passability>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
 		<blockLight>false</blockLight>
 		<blockWind>false</blockWind>
 		<coversFloor>true</coversFloor>
@@ -50,13 +52,14 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<staticSunShadowHeight>0.1</staticSunShadowHeight>
-		<fillPercent>0.70</fillPercent>
+		<fillPercent>0.65</fillPercent>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Beauty>0</Beauty>
 			<WorkToBuild>600</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
@@ -67,7 +70,6 @@
 		<costList>
 			<GDI_ReinforcedPlate>2</GDI_ReinforcedPlate>
 		</costList>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructDirt</constructEffect>
 		<repairEffect>ConstructDirt</repairEffect>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -88,7 +90,7 @@
 		<defName>DoorFrame_GDI</defName>
 		<label>GDI door frame</label>
 		<description>A metal frame to decorate doorways with.</description>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>

@@ -17,6 +17,7 @@
 			<WorkToBuild>2000</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<requisites>
 			<tiberiumResearch>
 				<li>NodExperimental1</li>
@@ -34,7 +35,7 @@
 		<defName>DoorFrame_Nod</defName>
 		<label>Nod door arch</label>
 		<description>It is a arch frame to decorate the Nod door.</description>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>1000</WorkToBuild>

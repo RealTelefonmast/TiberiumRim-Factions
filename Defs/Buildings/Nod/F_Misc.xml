@@ -75,19 +75,6 @@
 			<li Class="TeleCore.CompProperties_GlowerOffset">
 				<glowerDef>GlowSource_Nod_Red</glowerDef>
 			</li>
-			<li Class="TeleCore.CompProperties_FX"> 
-				<fxLayers>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Misc/Light/Wall/Glow</texPath>
-							<graphicClass>Graphic_Multi</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(1.5, 1.5)</drawSize>
-						</graphicData>
-						<needsPower>true</needsPower>
-					</li>
-				</fxLayers>
-			</li>	
 		</comps>
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
@@ -101,7 +88,7 @@
 		<defName>GlowSource_Nod_Red</defName>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>10</glowRadius>
+				<glowRadius>12</glowRadius>
 				<glowColor>(255,150,150)</glowColor>
 			</li>
 		</comps>

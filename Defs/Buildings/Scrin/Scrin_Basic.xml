@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
 	<TR.TRThingDef ParentName="ScrinBuildings">
 		<defName>ScrinDronePlatform</defName>
 		<label>scrin drone platform</label>
@@ -186,5 +186,4 @@
 			<Flammability>0</Flammability>
 		</statBases>
 	</TR.TRThingDef>
-
 </Defs>
