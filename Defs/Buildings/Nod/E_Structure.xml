@@ -112,7 +112,7 @@
 		<uiIconPath>Buildings/Nod/Structure/Door_Icon</uiIconPath>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
-			<MaxHitPoints>400</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0.0</Flammability>
 		</statBases>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -162,7 +162,7 @@
 		</researchPrerequisites>
 		<statBases>
 			<WorkToBuild>2000</WorkToBuild>
-			<MaxHitPoints>400</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0.0</Flammability>
 		</statBases>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
