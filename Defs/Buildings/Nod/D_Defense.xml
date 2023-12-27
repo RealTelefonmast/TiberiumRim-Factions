@@ -511,6 +511,9 @@
 				</fxLayers>
 			</li>	
 		</comps>
+		<placeWorkers>
+			<li>TeleCore.PlaceWorker_AtTurretHub</li>
+		</placeWorkers>
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>Nod</groupDef>

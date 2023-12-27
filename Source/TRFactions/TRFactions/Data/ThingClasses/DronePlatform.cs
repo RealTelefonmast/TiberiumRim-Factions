@@ -22,7 +22,8 @@ public class DronePlatform : TRBuildingPrototype
             CellFinder.TryFindRandomCellNear(Position, Map, 6, cellCheck, out IntVec3 result);
             GenPortal.SpawnDronePortal(result, Map);
             spawnedPortal = true;
-        }else
+        }
+        else
             ticksUntilPortal--;
     }
 }

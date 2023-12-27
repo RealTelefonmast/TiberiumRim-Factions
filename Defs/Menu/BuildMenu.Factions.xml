@@ -20,6 +20,7 @@
 
 	<TeleCore.SubMenuGroupDef ParentName="TR_SubThingGroupBase">
 		<defName>Scrin</defName>
+		<isDevGroup>true</isDevGroup>
 		<groupIconPath>UI/Icons/Factions/Scrin</groupIconPath>
 		<subPackPath>UI/Menu/Faction/Scrin</subPackPath>
 	</TeleCore.SubMenuGroupDef>

@@ -67,7 +67,7 @@
 	<TR.TRThingDef ParentName="ScrinBuildings">
 		<defName>ScrinPortal</defName>
 		<label>portal</label>
-		<description>oh lawd they comin</description>
+		<description>A portal opened from a nearby Scrin drone platform.</description>
 		<thingClass>TR.ScrinPortal</thingClass>
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
