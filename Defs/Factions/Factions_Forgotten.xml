@@ -82,9 +82,7 @@
 				<Forgotten_BadMutant>55</Forgotten_BadMutant>
 				<Forgotten_Warrior>10</Forgotten_Warrior>
 				<Forgotten_Heavygunner>12</Forgotten_Heavygunner>
-				<!--
 				<Forgotten_Ironback>3</Forgotten_Ironback>
-				-->
 			</options>
 		</li>
 		<li>
@@ -92,12 +90,10 @@
 			<commonality>100</commonality>
 			<options>
 				<Forgotten_BadMutant>70</Forgotten_BadMutant>
-				<!--
-				<TiberiumTerror>3</TiberiumTerror>
-				<BigTiberiumFiend>7</BigTiberiumFiend>
-				<TiberiumFiend>10</TiberiumFiend>
-				<Boomfiend>10</Boomfiend>
-				-->
+				<TiberiumTerror MayRequire="telefonmast.tiberiumrim.main">3</TiberiumTerror>
+				<BigTiberiumFiend MayRequire="telefonmast.tiberiumrim.main">7</BigTiberiumFiend>
+				<TiberiumFiend MayRequire="telefonmast.tiberiumrim.main">10</TiberiumFiend>
+				<Boomfiend MayRequire="telefonmast.tiberiumrim.main">10</Boomfiend>
 			</options>
 		</li>
 		<li>
@@ -128,12 +124,10 @@
 				<Forgotten_BadMutant>50</Forgotten_BadMutant>
 				<Forgotten_Warrior>15</Forgotten_Warrior>
 				<Forgotten_Heavygunner>15</Forgotten_Heavygunner>
-				<!--
 				<Forgotten_Ironback>15</Forgotten_Ironback>
-				<TiberiumTerror>15</TiberiumTerror>
-				<BigTiberiumFiend>15</BigTiberiumFiend>
-				<TiberiumFiend>15</TiberiumFiend>
-				-->
+				<TiberiumTerror MayRequire="telefonmast.tiberiumrim.main">15</TiberiumTerror>
+				<BigTiberiumFiend MayRequire="telefonmast.tiberiumrim.main">15</BigTiberiumFiend>
+				<TiberiumFiend MayRequire="telefonmast.tiberiumrim.main">15</TiberiumFiend>
 				</options>
 		</li>
 	</pawnGroupMakers>

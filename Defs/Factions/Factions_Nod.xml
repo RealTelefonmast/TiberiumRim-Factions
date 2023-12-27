@@ -98,10 +98,8 @@
 				<Nod_Militia>20</Nod_Militia>
 				<Nod_MilitiaRocket>5</Nod_MilitiaRocket>
 				<Nod_BlackHand>10</Nod_BlackHand>
-				<!--
 				<Nod_Buggy>10</Nod_Buggy>
 				<Nod_Flametank>5</Nod_Flametank>
-				-->				
 			</options>
 		</li>
 		<li>
@@ -132,12 +130,10 @@
 				<Nod_Bishop>5</Nod_Bishop>
 				<Nod_Soldier>30</Nod_Soldier>
 				<Nod_BlackHand>50</Nod_BlackHand>
-				<!---
 				<Nod_Buggy>15</Nod_Buggy>
 				<Nod_Avatar>10</Nod_Avatar>
 				<Nod_Purifier>5</Nod_Purifier>
 				<Nod_Flametank>15</Nod_Flametank>
-				-->
 			</options>
 		</li>
 		<li>
@@ -176,12 +172,10 @@
 				<Nod_Militia>50</Nod_Militia>
 				<Nod_MilitiaRocket>15</Nod_MilitiaRocket>
 				<Nod_BlackHand>15</Nod_BlackHand>
-				<!--
 				<Nod_Avatar>15</Nod_Avatar>
 				<Nod_Purifier>15</Nod_Purifier>
 				<Nod_Flametank>15</Nod_Flametank>
 				<Nod_Buggy>15</Nod_Buggy>
-				-->
 			</options>
 		</li>		
 	</pawnGroupMakers>

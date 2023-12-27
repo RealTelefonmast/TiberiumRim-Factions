@@ -90,11 +90,9 @@
 				<GDI_Soldier>30</GDI_Soldier>
 				<GDI_Officer>30</GDI_Officer>
 				<GDI_ZoneTrooper>10</GDI_ZoneTrooper>
-				<!--
 				<GDI_Wolverine>10</GDI_Wolverine>
 				<GDI_Disruptor>5</GDI_Disruptor>
 				<GDI_SiegeTrooper>5</GDI_SiegeTrooper>
-				-->
 			</options>
 		</li>
 		<li>
@@ -113,11 +111,9 @@
 			<options>
 				<GDI_General>5</GDI_General>
 				<GDI_ZoneTrooper>50</GDI_ZoneTrooper>
-				<!--
 				<GDI_Wolverine>20</GDI_Wolverine>
 				<GDI_Momtank>10</GDI_Momtank>
 				<GDI_Disruptor>15</GDI_Disruptor>
-				-->				
 			</options>
 		</li>
 		<li>
@@ -152,10 +148,8 @@
 				<GDI_Officer>15</GDI_Officer>
 				<GDI_SiegeTrooper>15</GDI_SiegeTrooper>
 				<GDI_ZoneTrooper>15</GDI_ZoneTrooper>
-				<!--
 				<GDI_Wolverine>15</GDI_Wolverine>
 				<GDI_Momtank>15</GDI_Momtank>
-				-->
 			</options>
 		</li>
 	</pawnGroupMakers>
