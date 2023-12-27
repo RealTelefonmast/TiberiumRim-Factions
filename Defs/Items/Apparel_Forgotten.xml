@@ -125,6 +125,7 @@
 		<defName>ForgottenMask</defName>
 		<label>Forgotten scrap mask</label>
 		<description>Forgotten's scrapmetal helmet. Very cost-effective gear but very heavy, vulnerable to flame attack.\n\nScrap set has some protection against tiberium, but not perfect.</description>
+		<uiIconPath>Items/Apparel/Forgotten_MutantArmor/MutantAH</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/Forgotten_MutantArmor/MutantAH</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -153,10 +154,10 @@
 			<TiberiumRadiationResistance MayRequire="telefonmast.tiberiumrim.main">0.1</TiberiumRadiationResistance>
 		</equippedStatOffsets>
 		<apparel>
+			<wornGraphicPath>Items/Apparel/Forgotten_MutantArmor/MutantAH</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-				<wornGraphicPath>Items/Apparel/Forgotten_MutantArmor/MutantAH</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

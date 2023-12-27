@@ -6,6 +6,7 @@
 		<defName>Apparel_NodMilitiaMask</defName>
 		<label>Nod militia mask</label>
 		<description>The mask of the Nod militia.\n\nNod militia set has little protection against tiberium.</description>
+		<uiIconPath>Items/Apparel/Nod_Militia/MilitiaSuitMask</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/Nod_Militia/MilitiaSuitMask</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -135,6 +136,7 @@
 		<defName>Apparel_NodSoldierHelmet</defName>  <!--balance standard - recon helmet -->
 		<label>Nod soldier helmet</label>
 		<description>This helmet has an integrated Tiberium filter, might also repell some bullets if you're lucky.\n\nNod soldier set has some protection against tiberium, but not perfect.</description>
+		<uiIconPath>Items/Apparel/Nod_Soldier/NodHelmet</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/Nod_Soldier/NodHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -268,6 +270,7 @@
 		<defName>Apparel_NodOfficerHelmet</defName> <!--balance standard - AdvancedHelmet-->
 		<label>Nod officer hat</label>
 		<description>A cool helmet, perfect for every Nod officer!\n\nNod officer set has little protection against tiberium.</description>
+		<uiIconPath>Items/Apparel/Nod_Classic/ClassicSuitMask</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/Nod_Classic/ClassicSuitMask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -403,6 +406,7 @@
 		<label>Nod black hand helmet</label>
 		<description>This special helmet is used to protect the soldier from their fiery actions.\n\nNod black hand set has strong protection against tiberium, but not perfect.</description>
 		<techLevel>Spacer</techLevel>
+		<uiIconPath>Items/Apparel/Nod_Blackhand/BHSuitHelmet</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/Nod_Blackhand/BHSuitHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -592,6 +596,5 @@
 			</tiberiumResearch>
 		</requisites>
 	</TR.TRThingDef>
-	
-          
+	    
 </Defs>

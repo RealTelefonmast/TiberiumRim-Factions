@@ -6,6 +6,7 @@
 		<defName>Apparel_GDISoldierHelmet</defName>  <!--balance standard - recon helmet -->
 		<label>GDI soldier helmet</label>
 		<description>This helmet has an integrated Tiberium filter, might also repell some bullets if you're lucky.\n\nGDI soldier set has some protection against tiberium, but not perfect.</description>
+		<uiIconPath>Items/Apparel/GDI_Soldier/Helmet</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/GDI_Soldier/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -159,6 +160,7 @@
 		<defName>Apparel_GDIOfficerHelmet</defName>
 		<label>GDI officer hat</label>
 		<description>A shique cap, perfect for every GDI officer!\n\nGDI officer set has little protection against tiberium.</description>
+		<uiIconPath>Items/Apparel/GDI_Officer/Helmet</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/GDI_Officer/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -291,6 +293,7 @@
 		<defName>Apparel_GDIEngineerMask</defName>
 		<label>GDI Engineer Mask</label>
 		<description>This is the mask of a true engineer. Improves work skills!\n\nGDI Engineer set has little protection against tiberium.</description>
+		<uiIconPath>Items/Apparel/GDI_Engineer/Helmet</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/GDI_Engineer/EngineerMask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -463,6 +466,7 @@
 		<label>GDI zone helmet</label>
 		<description>A head part of the GDI Zone Trooper armor.\n\nGDI zone set has perfect protection against tiberium.</description>
 		<techLevel>Spacer</techLevel>
+		<uiIconPath>Items/Apparel/GDI_Zone/ZoneSuitMask</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/GDI_Zone/ZoneSuitMask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
