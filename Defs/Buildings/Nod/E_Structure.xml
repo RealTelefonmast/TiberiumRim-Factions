@@ -51,7 +51,7 @@
 				<li>Wall</li>
 				<li>Rock</li>
 			</linkFlags>
-			<drawSize>(4,4)</drawSize>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
 		<uiIconScale>2</uiIconScale>
 		<uiIconPath>Buildings/Nod/Structure/DoorFrameNod/DoorFrameNod_south</uiIconPath>
