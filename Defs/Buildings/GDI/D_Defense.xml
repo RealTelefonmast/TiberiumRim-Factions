@@ -583,7 +583,7 @@
 		</modExtensions>
 	</TR.TRThingDef >
 	
-	<!-- Rig Station -->	
+	<!--Test Stuff	
 	<TR.TRThingDef ParentName="GDITurret">
 		<defName>GDI_BattleBase</defName>
 		<label>battle base</label>
@@ -744,7 +744,7 @@
 		</modExtensions>
 	</TR.TRThingDef>
 
-	<!--Test Stuff-->
+
 	<ThingDef ParentName="BaseWeapon_TR">
 		<defName>Gun_MissilePod</defName>
 		<label>missilepod launcher</label>
@@ -807,5 +807,6 @@
 			<soundExplode>MortarBomb_Explode</soundExplode>
 		</projectile>
 	</ThingDef>
+	 -->
 	
 </Defs>
