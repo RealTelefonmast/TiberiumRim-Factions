@@ -293,7 +293,7 @@
 		<defName>Apparel_GDIEngineerMask</defName>
 		<label>GDI Engineer Mask</label>
 		<description>This is the mask of a true engineer. Improves work skills!\n\nGDI Engineer set has little protection against tiberium.</description>
-		<uiIconPath>Items/Apparel/GDI_Engineer/Helmet</uiIconPath>
+		<uiIconPath>Items/Apparel/GDI_Engineer/EngineerMask</uiIconPath>
 		<graphicData>
 			<texPath>Items/Apparel/GDI_Engineer/EngineerMask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

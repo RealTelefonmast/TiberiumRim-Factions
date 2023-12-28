@@ -658,6 +658,7 @@
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
 				<category>Defense</category>
+				<isDevOption>true</isDevOption>
 			</li>
 			<li Class="TeleCore.TurretDefExtension">
 				<turrets>

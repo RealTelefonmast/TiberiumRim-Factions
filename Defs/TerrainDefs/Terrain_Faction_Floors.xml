@@ -31,6 +31,13 @@
 				<groupDef>Nod</groupDef>
 				<category>Structure</category>
 			</li>
+			<li Class="TR.ResearchModExtension">
+				<requisites>
+					<tiberiumResearch>
+						<li>NodExperimental1</li>
+					</tiberiumResearch>
+				</requisites>
+			</li>
 		</modExtensions>
 	</TerrainDef>
 	
@@ -39,6 +46,13 @@
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
 				<category>Structure</category>
+			</li>
+			<li Class="TR.ResearchModExtension">
+				<requisites>
+					<tiberiumResearch>
+						<li>GDIExperimental1</li>
+					</tiberiumResearch>
+				</requisites>
 			</li>
 		</modExtensions>
 	</TerrainDef>

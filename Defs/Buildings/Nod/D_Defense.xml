@@ -746,7 +746,7 @@
 				<explosiveRadius>11.9</explosiveRadius>
 				<damageAmountBase>650</damageAmountBase>
 				<explosiveDamageType>TRNuke</explosiveDamageType>
-				<postExplosionSpawnThingDef>Gas_ChemicalInterface</postExplosionSpawnThingDef>
+				<postExplosionSpawnThingDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</postExplosionSpawnThingDef>
 				<postExplosionSpawnChance>0.25</postExplosionSpawnChance>
 				<explosionEffect>GiantExplosion</explosionEffect>
 				<wickTicks>
