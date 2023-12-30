@@ -156,7 +156,7 @@
 				<defaultProjectile>Bullet_Nod_TwinFlechetteGun</defaultProjectile>
 				<warmupTime>0.25</warmupTime>
 				<range>14.9</range>
-				<forcedMissRadius>0.2</forcedMissRadius>
+				<forcedMissRadius>0.1</forcedMissRadius>
 				<burstShotCount>10</burstShotCount>
 				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 				<soundCast>Interact_AssaultRifle</soundCast>
@@ -241,8 +241,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>1.0</warmupTime>
 				<range>24.9</range>
-				<minRange>3.9</minRange>
-				<beamFullWidthRange>6.9</beamFullWidthRange>
+				<beamFullWidthRange>1</beamFullWidthRange>
 				<burstShotCount>3</burstShotCount>
 	
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -251,7 +250,7 @@
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
 				<muzzleFlashScale>6</muzzleFlashScale>
 	
-				<beamWidth>0.5</beamWidth>
+				<beamWidth>0.1</beamWidth>
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>
@@ -259,9 +258,9 @@
 				<beamCurvature>0</beamCurvature>
 				<!--<beamMoteDef>Mote_GraserBeamBase</beamMoteDef>-->
 				<beamMoteDef>Mote_NodGunBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0.05</beamChanceToStartFire>
+				<beamChanceToAttachFire>0.05</beamChanceToAttachFire>
+				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>
 				<beamStartOffset>0.8</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -384,35 +383,33 @@
 					<armorPenetrationOverride>0.5</armorPenetrationOverride>
 					<impactEffecter>BeamHit</impactEffecter>
 				</beamProps>
-				<!--
 				<originOffsetPerShot>
 					<li>(0.05 ,  0  , -0.4)</li>
 					<li>(0, 0 , -0.4,  0.0)</li>
 					<li>(-0.05,  0  , -0.4)</li>
 				</originOffsetPerShot>
-				-->
-				<forcedMissRadius>1.5</forcedMissRadius>
+				<forcedMissRadius>0</forcedMissRadius>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>1.25</warmupTime>
 				<range>32.9</range>
+				<beamFullWidthRange>1</beamFullWidthRange>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>13</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_LaserLarge</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				
 				<!--<soundCastBeam></soundCastBeam>-->
-				<beamWidth>0.5</beamWidth>
+				<beamWidth>0.1</beamWidth>
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_NodGunBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0.1</beamChanceToStartFire>
+				<beamChanceToAttachFire>0.1</beamChanceToAttachFire>
+				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>
 				<beamStartOffset>0.8</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
