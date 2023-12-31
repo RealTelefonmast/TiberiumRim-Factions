@@ -9,17 +9,17 @@
 		<graphicData>
 			<texPath>Items/Weapons/Gun_Blank</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>13</damageAmountBase>
-			<stoppingPower>0.75</stoppingPower>
+			<damageAmountBase>100</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
 			<speed>100</speed>
-			<armorPenetrationBase>0.45</armorPenetrationBase>
+			<armorPenetrationBase>1</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
-	
+<!--	
 	<ThingDef ParentName="BaseBullet_TR">
 		<defName>Bullet_ArmCannonSniper</defName>
 		<label>bullet</label>
@@ -36,6 +36,7 @@
 			<speed>220</speed>
 			<armorPenetrationBase>1</armorPenetrationBase>
 		</projectile>
-	</ThingDef>
+	</ThingDef>	
+	-->
 	
 </Defs>
