@@ -41,7 +41,7 @@
 			</li>
 		</tools>
 		<equippedStatOffsets>
-			<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<weaponTags>
 			<li>EngiWrench</li>
