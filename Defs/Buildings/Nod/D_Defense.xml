@@ -127,7 +127,7 @@
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Hub_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2.25, 2.25)</drawSize>
+			<drawSize>(2, 2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
@@ -168,7 +168,7 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(255,150,150)</glowColor>
 			</li>
-			<li Class="CompProperties_Refuelable">
+			<!--<li Class="CompProperties_Refuelable">
 				<fuelLabel>Shells capacity</fuelLabel>
 				<fuelGizmoLabel>Shells capacity</fuelGizmoLabel>
 				<fuelFilter>
@@ -187,7 +187,7 @@
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<outOfFuelMessage>Cannot shoot: Needs shells charge</outOfFuelMessage>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
-			</li>
+			</li>-->
 		</comps>
 		<passability>PassThroughOnly</passability>
 		<pathCost>100</pathCost>
@@ -195,7 +195,7 @@
 		<hasTooltip>true</hasTooltip>
 		<costList>
 			<Nod_CarbonPlate>50</Nod_CarbonPlate>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<building>
@@ -224,7 +224,7 @@
 					<cableTexturePath>Buildings/Nod/Defense/Turrets/TurretCable</cableTexturePath>
 					<maxTurrets>4</maxTurrets>
 				</hub>
-				<turrets>
+				<!--<turrets>
 					<li>
 						<canForceTarget>true</canForceTarget>
 						<turretTop>
@@ -262,7 +262,7 @@
 						<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 						<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
 					</li>
-				</turrets>
+				</turrets>-->
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>
@@ -283,15 +283,6 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>false</rotatable>
-		<statBases>
-			<MarketValue>5000</MarketValue>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Flammability>0.5</Flammability>
-			<WorkToBuild>5000</WorkToBuild>
-			<Mass>500</Mass>
-			<Beauty>-25</Beauty>
-			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
-		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_Explosive">
@@ -308,12 +299,6 @@
 		<pathCost>70</pathCost>
 		<fillPercent>0.3</fillPercent>
 		<hasTooltip>true</hasTooltip>
-		<costList>
-			<Nod_CarbonPlate>50</Nod_CarbonPlate>
-			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<specialDisplayRadius>17.9</specialDisplayRadius>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 		</building>
@@ -324,7 +309,7 @@
 		<damageMultipliers>
 			<li>
 				<damageDef>TRRailgun</damageDef>
-				<multiplier>1.5</multiplier>
+				<multiplier>1.2</multiplier>
 			</li>
 		</damageMultipliers>
 		<requisites>
@@ -345,11 +330,25 @@
 		<defName>Nod_ShredderTurret</defName>
 		<label>shredder turret</label>
 		<thingClass>TR.Building_NodHubTurret</thingClass>
-		<description>Nod's shredder turret, extremely effective towards unarmored infantry.</description>
+		<description>Nod's shredder turret, extremely effective towards unarmored infantry. Can only be built near a Nod turret hub.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Shredder</uiIconPath>
+		<costList>
+			<Nod_CarbonPlate>10</Nod_CarbonPlate>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>500</Mass>
+			<Beauty>-25</Beauty>
+			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
+		</statBases>
+		<specialDisplayRadius>17.9</specialDisplayRadius>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
@@ -358,7 +357,7 @@
 							<texPath>Buildings/Nod/Defense/Turrets/Lights</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2.25,2.25)</drawSize>							
+							<drawSize>(2,2)</drawSize>							
 						</graphicData>
 						<needsPower>true</needsPower>
 					</li>
@@ -370,7 +369,7 @@
 							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowNoBarrel</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2.5,2.5)</drawSize>							
+							<drawSize>(2,2)</drawSize>							
 						</graphicData>
 						<altitude>Item</altitude>
 						<fxMode>Dynamic</fxMode>
@@ -381,7 +380,7 @@
 							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowLeft</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2.5,2.5)</drawSize>							
+							<drawSize>(2,2)</drawSize>							
 						</graphicData>
 						<altitude>Item</altitude>
 						<fxMode>Dynamic</fxMode>
@@ -392,7 +391,7 @@
 							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowRight</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2.5,2.5)</drawSize>						
+							<drawSize>(2,2)</drawSize>						
 						</graphicData>
 						<altitude>Item</altitude>
 						<fxMode>Dynamic</fxMode>
@@ -425,14 +424,14 @@
 							<topGraphic>
 								<texPath>Buildings/Nod/Defense/Turrets/Shredder_BaseNoBarrels</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>(2.5,2.5)</drawSize>
+								<drawSize>(2,2)</drawSize>
 							</topGraphic>
 							<barrels>
 								<li>
 									<graphic>
 										<texPath>Buildings/Nod/Defense/Turrets/Shredder_BarrelLeft</texPath>
 										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>(2.5,2.5)</drawSize>
+										<drawSize>(2,2)</drawSize>
 									</graphic>
 									<barrelOffset>(0,0,-0.05)</barrelOffset>
 									<recoilOffset>(0,0,-0.25)</recoilOffset>
@@ -441,7 +440,7 @@
 									<graphic>
 										<texPath>Buildings/Nod/Defense/Turrets/Shredder_BarrelRight</texPath>
 										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>(2.5,2.5)</drawSize>
+										<drawSize>(2,2)</drawSize>
 									</graphic>
 									<altitudeOffset>-0.1</altitudeOffset>
 									<barrelOffset>(0,0,-0.05)</barrelOffset>
@@ -466,12 +465,26 @@
 	<TR.TRThingDef ParentName="NodHubTurret">
 		<defName>Nod_FlameTurret</defName>
 		<label>flame turret</label>
-		<description>Nod's flame turret.</description>
+		<description>Nod's flame turret. Can only be built near a Nod turret hub.</description>
 		<thingClass>TR.Building_FlameTurret</thingClass>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Flamer</uiIconPath>
+		<costList>
+			<Nod_CarbonPlate>20</Nod_CarbonPlate>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>500</Mass>
+			<Beauty>-25</Beauty>
+			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
+		</statBases>
+		<specialDisplayRadius>14.9</specialDisplayRadius>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
@@ -486,27 +499,6 @@
 					</li>
 					<li>
 						<skip>true</skip>
-					</li>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Defense/Turrets/Flame_Glow</texPath>
-							<graphicClass>Graphic_Single</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
-						</graphicData>
-						<altitude>Item</altitude>
-						<fxMode>Dynamic</fxMode>
-						<needsPower>true</needsPower>
-					</li>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Defense/Turrets/Flame_Flash</texPath>
-							<graphicClass>Graphic_Single</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
-						</graphicData>
-						<altitude>Item</altitude>
-						<fxMode>Dynamic</fxMode>
 					</li>
 				</fxLayers>
 			</li>	
