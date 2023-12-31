@@ -124,10 +124,10 @@
 			<!--<explosionRadius>0.05</explosionRadius>-->
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.35</preExplosionSpawnChance>
-			<arcHeightFactor>1.25</arcHeightFactor>
+			<arcHeightFactor>0.3</arcHeightFactor>
 			<speed>15</speed>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
-			<shadowSize>1.8</shadowSize>			
+			<shadowSize>1.5</shadowSize>			
 		</projectile>
 		<modExtensions>
 			<li Class="TeleCore.TeleDefExtension">

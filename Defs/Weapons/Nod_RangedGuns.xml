@@ -381,7 +381,7 @@
 					<damageBaseOverride>18</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
 					<armorPenetrationOverride>0.5</armorPenetrationOverride>
-					<impactEffecter>BeamHit</impactEffecter>
+					<impactEffecter></impactEffecter>
 				</beamProps>
 				<originOffsetPerShot>
 					<li>(0.05 ,  0  , -0.4)</li>
