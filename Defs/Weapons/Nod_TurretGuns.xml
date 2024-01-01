@@ -118,7 +118,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Shredder</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
-				<range>17.9</range>
+				<range>16.9</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_Shredder</soundCast>
@@ -163,7 +163,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Flamethrower</defaultProjectile>
 				<warmupTime>0</warmupTime>
-				<range>14.9</range>
+				<range>12.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_Flame</soundCast>
