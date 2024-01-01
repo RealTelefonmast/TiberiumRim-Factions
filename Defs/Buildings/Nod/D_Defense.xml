@@ -9,7 +9,7 @@
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>ObeliskOfLight</defName>
 		<label>obelisk of light</label>
-		<description>pew pew</description>
+		<description>A ultimate defense tower that makes the base impregnable.</description>
 		<thingClass>TR.Building_Obelisk</thingClass>
 		<size>(3,3)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -70,7 +70,7 @@
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>50</basePowerConsumption>
+				<basePowerConsumption>2500</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -153,7 +153,7 @@
 							<texPath>Buildings/Nod/Defense/Turrets/Hub_Glow</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2.25,2.25)</drawSize>						
+							<drawSize>(2,2)</drawSize>						
 						</graphicData>
 						<needsPower>true</needsPower>
 					</li>
@@ -161,7 +161,7 @@
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>150</basePowerConsumption>
+				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
