@@ -273,7 +273,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2.25,2.25)</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
@@ -286,7 +286,7 @@
 		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>1.9</explosiveRadius>
+				<explosiveRadius>2.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<chanceNeverExplodeFromDamage>0.35</chanceNeverExplodeFromDamage>
 			</li>
@@ -347,7 +347,7 @@
 			<Beauty>-25</Beauty>
 			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
 		</statBases>
-		<specialDisplayRadius>17.9</specialDisplayRadius>
+		<specialDisplayRadius>16.9</specialDisplayRadius>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="TeleCore.CompProperties_FX"> 
@@ -442,7 +442,6 @@
 										<graphicClass>Graphic_Single</graphicClass>
 										<drawSize>(2,2)</drawSize>
 									</graphic>
-									<altitudeOffset>-0.1</altitudeOffset>
 									<barrelOffset>(0,0,-0.05)</barrelOffset>
 									<recoilOffset>(0,0,-0.25)</recoilOffset>
 								</li>
@@ -454,7 +453,7 @@
 						<turretGunDef>Gun_ShredderTurret</turretGunDef>
 						<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 						<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
-						<canForceTarget>true</canForceTarget>
+						<canForceTarget>flase</canForceTarget>
 					</li>
 				</turrets>
 			</li>
@@ -483,7 +482,7 @@
 			<Beauty>-25</Beauty>
 			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
 		</statBases>
-		<specialDisplayRadius>14.9</specialDisplayRadius>
+		<specialDisplayRadius>12.9</specialDisplayRadius>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="TeleCore.CompProperties_FX"> 
@@ -524,7 +523,7 @@
 				</hub>
 				<turrets>
 					<li>
-						<canForceTarget>true</canForceTarget>
+						<canForceTarget>false</canForceTarget>
 						<turretTop>
 							<topGraphic>
 								<texPath>Buildings/Nod/Defense/Turrets/Flame_Base</texPath>
@@ -532,10 +531,12 @@
 								<drawSize>(2,2)</drawSize>
 							</topGraphic>
 							<aimSpeed>200</aimSpeed>
+							<resetSpeed>100</resetSpeed>
+							<recoilSpeed>200</recoilSpeed>
 						</turretTop>
 						<turretGunDef>Gun_FlameTurret</turretGunDef>
-						<turretBurstWarmupTime>0</turretBurstWarmupTime>
-						<turretBurstCooldownTime>0</turretBurstCooldownTime>
+						<turretBurstWarmupTime>3</turretBurstWarmupTime>
+						<turretBurstCooldownTime>3</turretBurstCooldownTime>
 						<continuous>true</continuous>
 					</li>
 				</turrets>
