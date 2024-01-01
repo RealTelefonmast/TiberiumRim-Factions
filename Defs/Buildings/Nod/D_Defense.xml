@@ -453,7 +453,7 @@
 						<turretGunDef>Gun_ShredderTurret</turretGunDef>
 						<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 						<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
-						<canForceTarget>flase</canForceTarget>
+						<canForceTarget>false</canForceTarget>
 					</li>
 				</turrets>
 			</li>
