@@ -9,7 +9,9 @@
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>ObeliskOfLight</defName>
 		<label>obelisk of light</label>
-		<description>A ultimate defense tower that makes the base impregnable.</description>
+		<description>A ultimate defense tower that makes the base impregnable.
+		
+Can attack beyond walls, but cannot be built indoors.</description>
 		<thingClass>TR.Building_Obelisk</thingClass>
 		<size>(3,3)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -71,7 +73,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>2500</basePowerConsumption>
-				<transmitsPower>true</transmitsPower>
+				<transmitsPower>false</transmitsPower>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -330,7 +332,9 @@
 		<defName>Nod_ShredderTurret</defName>
 		<label>shredder turret</label>
 		<thingClass>TR.Building_NodHubTurret</thingClass>
-		<description>Nod's shredder turret, extremely effective towards unarmored infantry. Can only be built near a Nod turret hub.</description>
+		<description>Nod's shredder turret, extremely effective towards unarmored infantry.
+		
+Can only be built near a Nod turret hub.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 		</graphicData>
@@ -464,7 +468,9 @@
 	<TR.TRThingDef ParentName="NodHubTurret">
 		<defName>Nod_FlameTurret</defName>
 		<label>flame turret</label>
-		<description>Nod's flame turret. Can only be built near a Nod turret hub.</description>
+		<description>Nod's flame turret.
+		
+Can only be built near a Nod turret hub.</description>
 		<thingClass>TR.Building_FlameTurret</thingClass>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
