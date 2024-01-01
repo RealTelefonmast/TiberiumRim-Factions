@@ -166,6 +166,7 @@
 				<range>12.9</range>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+				<forcedMissRadius>0.1</forcedMissRadius>
 				<soundCast>Shot_Nod_Flame</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>0</muzzleFlashScale>
