@@ -218,7 +218,7 @@
 		</statBases>
 		<costList>
 			<Nod_StandardRifle>1</Nod_StandardRifle>
-			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">
@@ -227,9 +227,9 @@
 					<damageDef>TRLaser</damageDef>
 					<isStatic>true</isStatic>	
 					<spawnMotePerBeam>true</spawnMotePerBeam>
-					<damageBaseOverride>12</damageBaseOverride>
+					<damageBaseOverride>25</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
-					<armorPenetrationOverride>0.25</armorPenetrationOverride>
+					<armorPenetrationOverride>0.5</armorPenetrationOverride>
 					<impactEffecter>BeamHit</impactEffecter>
 				</beamProps>
 				<originOffsetPerShot>
@@ -240,11 +240,11 @@
 				
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>1.0</warmupTime>
-				<range>24.9</range>
+				<range>30.9</range>
 				<beamFullWidthRange>1</beamFullWidthRange>
 				<burstShotCount>3</burstShotCount>
 	
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<beamDamageDef>Beam</beamDamageDef>
 				<soundCast>Shot_Nod_Laser</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
@@ -261,7 +261,7 @@
 				<beamChanceToStartFire>0.05</beamChanceToStartFire>
 				<beamChanceToAttachFire>0.05</beamChanceToAttachFire>
 				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>
-				<beamStartOffset>0.8</beamStartOffset>
+				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
 						<li>(0, 1)</li>
@@ -369,7 +369,7 @@
 		</statBases>
 		<costList>
 			<Nod_LaserRifleSmall>1</Nod_LaserRifleSmall>
-			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">
@@ -378,9 +378,9 @@
 					<damageDef>TRLaser</damageDef>
 					<isStatic>true</isStatic>	
 					<spawnMotePerBeam>true</spawnMotePerBeam>
-					<damageBaseOverride>18</damageBaseOverride>
+					<damageBaseOverride>35</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
-					<armorPenetrationOverride>0.5</armorPenetrationOverride>
+					<armorPenetrationOverride>0.6</armorPenetrationOverride>
 					<impactEffecter></impactEffecter>
 				</beamProps>
 				<originOffsetPerShot>
@@ -394,7 +394,7 @@
 				<range>32.9</range>
 				<beamFullWidthRange>1</beamFullWidthRange>
 				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_LaserLarge</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
@@ -404,13 +404,13 @@
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>
-				<beamMaxDeviation>0</beamMaxDeviation>
+				<beamMaxDeviation>5</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_NodGunBeam</beamMoteDef>
 				<beamChanceToStartFire>0.1</beamChanceToStartFire>
 				<beamChanceToAttachFire>0.1</beamChanceToAttachFire>
 				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>
-				<beamStartOffset>0.8</beamStartOffset>
+				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
 						<li>(0, 1)</li>

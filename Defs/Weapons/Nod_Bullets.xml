@@ -31,10 +31,10 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>9</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<stoppingPower>0.3</stoppingPower>
 			<armorPenetrationBase>0.1</armorPenetrationBase>
-			<speed>70</speed>			
+			<speed>70</speed>
 		</projectile>
 	</ThingDef>
 	
@@ -49,7 +49,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>7</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
 			<speed>90</speed>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 		</projectile>
@@ -66,7 +66,7 @@
 		<thingClass>TR.ProjectileTR_Explosive</thingClass>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<speed>35</speed>
 			<soundExplode>BulletImpact_Flesh</soundExplode>
 		</projectile>
@@ -130,7 +130,7 @@
 		<projectile>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>6</damageAmountBase>
+			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<!--<explosionRadius>0.05</explosionRadius>-->
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
@@ -161,7 +161,7 @@
 		<thingClass>TR.ProjectileTR_Explosive</thingClass>
 		<projectile>
 			<damageDef>TiberiumExplosionGas</damageDef>
-			<damageAmountBase>8</damageAmountBase>
+			<damageAmountBase>9</damageAmountBase>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<arcHeightFactor>1.25</arcHeightFactor>
 			<speed>15</speed>
@@ -200,7 +200,7 @@
 		<projectile>
 			<damageDef>Bomb</damageDef>
 			<arcHeightFactor>1.25</arcHeightFactor>
-			<damageAmountBase>20</damageAmountBase>
+			<damageAmountBase>30</damageAmountBase>
 			<explosionRadius>2.5</explosionRadius>
 			<speed>25</speed>
 			<soundExplode>MortarBomb_Explode</soundExplode>

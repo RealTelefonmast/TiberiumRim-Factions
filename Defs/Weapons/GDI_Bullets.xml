@@ -31,7 +31,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>12</damageAmountBase>
+			<damageAmountBase>13</damageAmountBase>
 			<stoppingPower>0.25</stoppingPower>
 			<speed>70</speed>
 			<armorPenetrationBase>0.1</armorPenetrationBase>
@@ -50,7 +50,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>11</damageAmountBase>
 			<speed>90</speed>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 		</projectile>
@@ -229,7 +229,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>8</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
 			<explosionRadius>1.9</explosionRadius>
 			<arcHeightFactor>1.3</arcHeightFactor>
