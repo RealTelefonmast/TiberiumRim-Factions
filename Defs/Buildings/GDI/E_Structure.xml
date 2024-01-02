@@ -160,7 +160,7 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<GDI_ReinforcedPlate>2</GDI_ReinforcedPlate>
+			<GDI_ReinforcedPlate>10</GDI_ReinforcedPlate>
 		</costList>
 		<stuffCategories Inherit="False"/>
 		<uiIconPath>Buildings/GDI/Structure/Door_GDI_icon</uiIconPath>
@@ -196,8 +196,8 @@
 		</graphicData>
 		<uiIconPath>Buildings/GDI/Structure/AutoDoor_GDI_icon</uiIconPath>
 		<costList>
-			<GDI_ReinforcedPlate>2</GDI_ReinforcedPlate>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<GDI_ReinforcedPlate>15</GDI_ReinforcedPlate>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<stuffCategories Inherit="False"/>
 		<comps>

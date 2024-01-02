@@ -106,7 +106,7 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<Nod_CarbonPlate>2</Nod_CarbonPlate>
+			<Nod_CarbonPlate>10</Nod_CarbonPlate>
 		</costList>
 		<stuffCategories Inherit="False"/>
 		<uiIconPath>Buildings/Nod/Structure/Door_Icon</uiIconPath>
@@ -142,8 +142,8 @@
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Structure/AD_Icon</uiIconPath>
 		<costList>
-			<Nod_CarbonPlate>2</Nod_CarbonPlate>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Nod_CarbonPlate>15</Nod_CarbonPlate>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<stuffCategories Inherit="False"/>
 		<comps>
