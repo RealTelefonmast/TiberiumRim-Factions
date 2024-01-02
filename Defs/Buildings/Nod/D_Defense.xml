@@ -33,10 +33,11 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		<statBases>
 			<MarketValue>30000</MarketValue>
 			<MaxHitPoints>460</MaxHitPoints>
-			<Flammability>0.40</Flammability>
+			<Flammability>0</Flammability>
 			<WorkToBuild>15000</WorkToBuild>
 			<Mass>1000</Mass>
-			<Beauty>5</Beauty>
+			<Beauty>50</Beauty>
+			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -197,7 +198,7 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		<hasTooltip>true</hasTooltip>
 		<costList>
 			<Nod_CarbonPlate>50</Nod_CarbonPlate>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<building>
