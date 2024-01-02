@@ -85,29 +85,8 @@
 		</modExtensions>
 	</TR.TRThingDef>
 
-<!--	<TR.TRThingDef ParentName="BaseBullet_TR">
-		<defName>Bullet_FlamethrowerTower</defName>
-		<label>flame</label>
-		<thingClass>TR.Projectile_ThrownFlame</thingClass>
-		<graphicData>
-			<texPath>Sprites\FlameMatrix</texPath>
-			<graphicClass>TR.Graphic_Sprite</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<projectile>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<damageDef>Flame</damageDef>
-			<damageAmountBase>3</damageAmountBase>
-			<explosionRadius>0.025</explosionRadius>
-			<arcHeightFactor>1.25</arcHeightFactor>
-			<speed>12</speed>
-			<soundExplode>Shot_Nod_FlameTail</soundExplode>
-		</projectile>
-	</TR.TRThingDef>-->
-	
 	<TR.TRThingDef ParentName="BaseBullet_TR">
-		<defName>Bullet_Flamethrower</defName>
+		<defName>Bullet_FlamethrowerTower</defName>
 		<label>flame</label>
 		<thingClass>TR.ProjectileTR_Explosive</thingClass>
 		<graphicData>
@@ -119,15 +98,47 @@
 		<projectile>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>6</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<!--<explosionRadius>0.05</explosionRadius>-->
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.35</preExplosionSpawnChance>
-			<arcHeightFactor>0.3</arcHeightFactor>
-			<speed>15</speed>
+			<preExplosionSpawnChance>0.2</preExplosionSpawnChance>
+			<arcHeightFactor>0.25</arcHeightFactor>
+			<speed>14</speed>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
-			<shadowSize>1.5</shadowSize>			
+			<shadowSize>1.1</shadowSize>			
+		</projectile>
+		<modExtensions>
+			<li Class="TeleCore.TeleDefExtension">
+				<projectile>
+					<impactEffecter>FlameHit</impactEffecter>
+				</projectile>
+			</li>
+		</modExtensions>
+	</TR.TRThingDef>
+	
+	<TR.TRThingDef ParentName="BaseBullet_TR">
+		<defName>Bullet_Flamethrower</defName>
+		<label>flame</label>
+		<thingClass>TR.ProjectileTR_Explosive</thingClass>
+		<graphicData>
+			<texPath>Items/Weapons/Projectile/FlameSmall</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<projectile>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<!--<explosionRadius>0.05</explosionRadius>-->
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+			<arcHeightFactor>0.25</arcHeightFactor>
+			<speed>14</speed>
+			<soundExplode>Shot_Nod_FlameTail</soundExplode>
+			<shadowSize>1</shadowSize>			
 		</projectile>
 		<modExtensions>
 			<li Class="TeleCore.TeleDefExtension">
