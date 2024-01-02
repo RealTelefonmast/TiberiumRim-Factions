@@ -233,14 +233,14 @@ Can attack beyond walls, but cannot be built indoors.</description>
 							<topGraphic>
 								<texPath>Buildings/Nod/Defense/Turrets/Shredder_BaseNoBarrels</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
-								<drawSize>(2.5,2.5)</drawSize>
+								<drawSize>(2,2)</drawSize>
 							</topGraphic>
 							<barrels>
 								<li>
 									<graphic>
 										<texPath>Buildings/Nod/Defense/Turrets/Shredder_BarrelLeft</texPath>
 										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>(2.5,2.5)</drawSize>
+										<drawSize>(2,2)</drawSize>
 									</graphic>
 									<barrelOffset>(0,0,-0.05)</barrelOffset>
 									<recoilOffset>(0,0,-0.25)</recoilOffset>
@@ -249,7 +249,7 @@ Can attack beyond walls, but cannot be built indoors.</description>
 									<graphic>
 										<texPath>Buildings/Nod/Defense/Turrets/Shredder_BarrelRight</texPath>
 										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>(2.5,2.5)</drawSize>
+										<drawSize>(2,2)</drawSize>
 									</graphic>
 									<altitudeOffset>-0.1</altitudeOffset>
 									<barrelOffset>(0,0,-0.05)</barrelOffset>
@@ -287,11 +287,6 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		<rotatable>false</rotatable>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>2.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.35</chanceNeverExplodeFromDamage>
-			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
 				<glowColor>(255,150,150)</glowColor>
@@ -341,19 +336,23 @@ Can only be built near a Nod turret hub.</description>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Shredder</uiIconPath>
 		<costList>
 			<Nod_CarbonPlate>10</Nod_CarbonPlate>
-			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
-			<Flammability>0.5</Flammability>
+			<Flammability>0</Flammability>
 			<WorkToBuild>1000</WorkToBuild>
 			<Mass>500</Mass>
 			<Beauty>-25</Beauty>
 			<ShootingAccuracyTurret>0.93</ShootingAccuracyTurret>
 		</statBases>
-		<specialDisplayRadius>16.9</specialDisplayRadius>
+		<specialDisplayRadius>17.9</specialDisplayRadius>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.1</chanceNeverExplodeFromDamage>
+			</li>
 			<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
 					<li>
@@ -477,8 +476,7 @@ Can only be built near a Nod turret hub.</description>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Flamer</uiIconPath>
 		<costList>
-			<Nod_CarbonPlate>20</Nod_CarbonPlate>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Nod_CarbonPlate>25</Nod_CarbonPlate>
 		</costList>
 		<statBases>
 			<MaxHitPoints>350</MaxHitPoints>
@@ -491,6 +489,11 @@ Can only be built near a Nod turret hub.</description>
 		<specialDisplayRadius>12.9</specialDisplayRadius>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.1</chanceNeverExplodeFromDamage>
+			</li>
 			<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
 					<li>
