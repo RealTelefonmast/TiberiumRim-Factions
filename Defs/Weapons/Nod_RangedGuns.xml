@@ -378,7 +378,7 @@
 					<damageDef>TRLaser</damageDef>
 					<isStatic>true</isStatic>	
 					<spawnMotePerBeam>true</spawnMotePerBeam>
-					<damageBaseOverride>35</damageBaseOverride>
+					<damageBaseOverride>26</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
 					<armorPenetrationOverride>0.6</armorPenetrationOverride>
 					<impactEffecter></impactEffecter>
@@ -393,7 +393,7 @@
 				<warmupTime>1.25</warmupTime>
 				<range>32.9</range>
 				<beamFullWidthRange>1</beamFullWidthRange>
-				<burstShotCount>3</burstShotCount>
+				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_LaserLarge</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>

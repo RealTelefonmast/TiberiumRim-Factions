@@ -215,7 +215,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.20</MoveSpeed>
+					<MoveSpeed>-0.10</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_GDIZoneSuit</li>
@@ -224,7 +224,7 @@
 		</conditionalStatOffsets>
 		<costList>
 			<GDI_StandardRifle>1</GDI_StandardRifle>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">
@@ -232,9 +232,9 @@
 				<beamProps>
 					<damageDef>TRRailgun</damageDef>
 					<isStatic>true</isStatic>	
-					<damageBaseOverride>100</damageBaseOverride>
+					<damageBaseOverride>80</damageBaseOverride>
 					<stoppingPowerOverride>1</stoppingPowerOverride>
-					<armorPenetrationOverride>1</armorPenetrationOverride>
+					<armorPenetrationOverride>0.8</armorPenetrationOverride>
 					<impactEffecter>RailgunHit</impactEffecter>
 				</beamProps>
 				<originOffsetPerShot>
@@ -243,7 +243,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<warmupTime>3.5</warmupTime>
-				<minRange>2.9</minRange>
+				<minRange>1.9</minRange>
 				<range>39.9</range>	
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -260,9 +260,9 @@
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_RailgunBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -518,7 +518,7 @@
 		<costList>
 			<GDI_Mortar>1</GDI_Mortar>
 			<GDI_SonicCore>1</GDI_SonicCore>
-			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li>
