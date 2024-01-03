@@ -49,7 +49,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>2</warmupTime>
 				<range>29.9</range>
-				<minRange>3.5</minRange>
+				<minRange>1.9</minRange>
 				<burstShotCount>3</burstShotCount>
 				<soundCast>Nod_AvatarLaser</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
@@ -70,9 +70,9 @@
 				<beamCurvature>0.25</beamCurvature>
 				<beamMoteDef>Mote_NodGunStrongBeam</beamMoteDef>
 				<beamEndEffecterDef>AnyBeam_End</beamEndEffecterDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0.1</beamChanceToStartFire>
+				<beamChanceToAttachFire>0.1</beamChanceToAttachFire>
+				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -400,7 +400,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>3</warmupTime>
 				<range>44.9</range>
-				<minRange>2.5</minRange>
+				<minRange>1.9</minRange>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_GDI_RailgunHeavy</soundCast>
@@ -417,9 +417,9 @@
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_RailgunBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0~0</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -498,7 +498,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>3.2</warmupTime>
 				<range>17.9</range>
-				<minRange>2.49</minRange>
+				<minRange>1.9</minRange>
 				<burstShotCount>4</burstShotCount> <!---->
 				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
 				<soundAiming>OrbitalTargeter_Aiming</soundAiming>

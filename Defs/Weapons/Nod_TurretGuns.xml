@@ -33,7 +33,7 @@
 				<beamProps>
 					<damageDef>TRLaser</damageDef>
 					<isStatic>false</isStatic>
-					<damageBaseOverride>100</damageBaseOverride>
+					<damageBaseOverride>200</damageBaseOverride>
 					<stoppingPowerOverride>1</stoppingPowerOverride>
 					<armorPenetrationOverride>1</armorPenetrationOverride>
 					<impactEffecter>StrongBeamHit</impactEffecter>
@@ -51,7 +51,7 @@
 				<requireLineOfSight>false</requireLineOfSight>
 				<warmupTime>3.5</warmupTime>
 				<minRange>2.9</minRange>
-				<range>44.9</range>
+				<range>39.9</range>
 				<chargeSound>Obelisk_Chargup</chargeSound>
 				<soundCast>Obelisk_Shot</soundCast>		
 				
@@ -119,6 +119,7 @@
 				<defaultProjectile>Bullet_Shredder</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>17.9</range>
+				<minRange>1.9</minRange>
 				<burstShotCount>6</burstShotCount>
 				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
 				<soundCast>Shot_Nod_Shredder</soundCast>
@@ -164,6 +165,7 @@
 				<defaultProjectile>Bullet_FlamethrowerTower</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<range>12.9</range>
+				<minRange>1.9</minRange>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<forcedMissRadius>0.1</forcedMissRadius>

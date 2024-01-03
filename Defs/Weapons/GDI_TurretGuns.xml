@@ -90,6 +90,7 @@
 				<shotStartOffset>(0,0,1.5)</shotStartOffset>
 				<warmupTime>2.5</warmupTime>
 				<range>24.9</range>
+				<minRange>1.9</minRange>
 				<burstShotCount>8</burstShotCount>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 				<soundCast>Shot_HeavySMG</soundCast>
@@ -133,6 +134,7 @@
 				<shotStartOffset>(0,0,1.75)</shotStartOffset>
 				<warmupTime>2.5</warmupTime>
 				<range>29.9</range>
+				<minRange>1.9</minRange>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<soundCast>Shot_GDI_RailgunHeavy</soundCast>
@@ -188,6 +190,7 @@
 				<requireLineOfSight>true</requireLineOfSight>
 				<warmupTime>2.5</warmupTime>
 				<range>44.9</range>
+				<minRange>1.9</minRange>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<soundCast>Shot_GDI_RailgunHeavy</soundCast>

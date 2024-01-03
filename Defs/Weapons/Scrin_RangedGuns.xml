@@ -85,6 +85,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>0.5</warmupTime>
 				<range>5.9</range>
+				<minRange>1.9</minRange>
 				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 				<burstShotCount>5</burstShotCount>
 				<soundCast>Shot_Scrin_BeamSml</soundCast>
@@ -100,9 +101,9 @@
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_ScrinGunBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0~0</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -162,6 +163,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>2.5</warmupTime>
 				<range>19.9</range>
+				<minRange>1.9</minRange>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
 				<soundCast>Shot_Scrin_Devourer</soundCast>
@@ -177,9 +179,9 @@
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_ScrinGunStrongBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0~0</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
@@ -235,6 +237,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>3</warmupTime>
 				<range>49.9</range>
+				<minRange>1.9</minRange>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_Scrin_BeamMid</soundCast>
@@ -250,9 +253,9 @@
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
 				<beamMoteDef>Mote_ScrinLanceBeam</beamMoteDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0~0</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>

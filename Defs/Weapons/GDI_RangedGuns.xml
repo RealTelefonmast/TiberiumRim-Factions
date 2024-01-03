@@ -243,8 +243,8 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
 				<warmupTime>3.5</warmupTime>
-				<minRange>1.9</minRange>
 				<range>39.9</range>	
+				<minRange>1.9</minRange>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_GDI_Railgun</soundCast>
