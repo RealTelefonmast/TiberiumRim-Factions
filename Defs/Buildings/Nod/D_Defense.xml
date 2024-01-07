@@ -332,7 +332,8 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		
 Can only be built near a Nod turret hub.</description>
 		<graphicData>
-			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
+			<texPath>Buildings/Nod/Defense/Turrets/base_original</texPath>
+			<drawOffset>(0,0,0.1)</drawOffset>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Shredder</uiIconPath>
 		<costList>
@@ -354,55 +355,20 @@ Can only be built near a Nod turret hub.</description>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<chanceNeverExplodeFromDamage>0.1</chanceNeverExplodeFromDamage>
 			</li>
-			<li Class="TeleCore.CompProperties_FX"> 
+			<!--<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
 					<li>
 						<graphicData>
 							<texPath>Buildings/Nod/Defense/Turrets/Lights</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
+							<drawSize>(2,2)</drawSize>
+							<drawOffset>(0,0,0.1)</drawOffset>
 						</graphicData>
-						<needsPower>true</needsPower>
-					</li>
-					<li>
-						<skip>true</skip>
-					</li>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowNoBarrel</texPath>
-							<graphicClass>Graphic_Single</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
-						</graphicData>
-						<altitude>Item</altitude>
-						<fxMode>Dynamic</fxMode>
-						<needsPower>true</needsPower>
-					</li>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowLeft</texPath>
-							<graphicClass>Graphic_Single</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
-						</graphicData>
-						<altitude>Item</altitude>
-						<fxMode>Dynamic</fxMode>
-						<needsPower>true</needsPower>
-					</li>
-					<li>
-						<graphicData>
-							<texPath>Buildings/Nod/Defense/Turrets/Shredder_GlowRight</texPath>
-							<graphicClass>Graphic_Single</graphicClass>
-							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>						
-						</graphicData>
-						<altitude>Item</altitude>
-						<fxMode>Dynamic</fxMode>
 						<needsPower>true</needsPower>
 					</li>
 				</fxLayers>
-			</li>	
+			</li>-->
 		</comps>
 		<placeWorkers>
 			<li>TeleCore.PlaceWorker_AtTurretHub</li>
@@ -454,6 +420,7 @@ Can only be built near a Nod turret hub.</description>
 							<resetSpeed>100</resetSpeed>
 							<recoilSpeed>200</recoilSpeed>
 						</turretTop>
+						<turretOffset>(0,0,0.2)</turretOffset>
 						<turretGunDef>Gun_ShredderTurret</turretGunDef>
 						<turretBurstWarmupTime>1.5</turretBurstWarmupTime>
 						<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
@@ -473,7 +440,8 @@ Can only be built near a Nod turret hub.</description>
 Can only be built near a Nod turret hub.</description>
 		<thingClass>TR.Building_FlameTurret</thingClass>
 		<graphicData>
-			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
+			<texPath>Buildings/Nod/Defense/Turrets/base_original</texPath>
+			<drawOffset>(0,0,0.1)</drawOffset>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Flamer</uiIconPath>
 		<costList>
@@ -491,26 +459,24 @@ Can only be built near a Nod turret hub.</description>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveRadius>1.9</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
 				<chanceNeverExplodeFromDamage>0.1</chanceNeverExplodeFromDamage>
 			</li>
-			<li Class="TeleCore.CompProperties_FX"> 
+			<!--<li Class="TeleCore.CompProperties_FX"> 
 				<fxLayers>
 					<li>
 						<graphicData>
 							<texPath>Buildings/Nod/Defense/Turrets/Lights</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(2,2)</drawSize>							
+							<drawSize>(2,2)</drawSize>
+							<drawOffset>(0,0,0.1)</drawOffset>
 						</graphicData>
 						<needsPower>true</needsPower>
 					</li>
-					<li>
-						<skip>true</skip>
-					</li>
 				</fxLayers>
-			</li>	
+			</li>-->
 		</comps>
 		<placeWorkers>
 			<li>TeleCore.PlaceWorker_AtTurretHub</li>
@@ -536,7 +502,7 @@ Can only be built near a Nod turret hub.</description>
 						<canForceTarget>false</canForceTarget>
 						<turretTop>
 							<topGraphic>
-								<texPath>Buildings/Nod/Defense/Turrets/Flame_Base</texPath>
+								<texPath>Buildings/Nod/Defense/Turrets/Flamer</texPath>
 								<graphicClass>Graphic_Single</graphicClass>
 								<drawSize>(2,2)</drawSize>
 							</topGraphic>
@@ -544,6 +510,7 @@ Can only be built near a Nod turret hub.</description>
 							<resetSpeed>100</resetSpeed>
 							<recoilSpeed>200</recoilSpeed>
 						</turretTop>
+						<turretOffset>(0,0,0.2)</turretOffset>
 						<turretGunDef>Gun_FlameTurret</turretGunDef>
 						<turretBurstWarmupTime>3</turretBurstWarmupTime>
 						<turretBurstCooldownTime>3</turretBurstCooldownTime>
