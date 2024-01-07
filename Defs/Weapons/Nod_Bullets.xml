@@ -104,7 +104,7 @@
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.2</preExplosionSpawnChance>
 			<arcHeightFactor>0.25</arcHeightFactor>
-			<speed>14</speed>
+			<speed>16</speed>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
 			<shadowSize>1.1</shadowSize>			
 		</projectile>
@@ -136,7 +136,7 @@
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
 			<arcHeightFactor>0.25</arcHeightFactor>
-			<speed>14</speed>
+			<speed>16</speed>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
 			<shadowSize>1</shadowSize>			
 		</projectile>
@@ -164,7 +164,7 @@
 			<damageAmountBase>9</damageAmountBase>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<arcHeightFactor>1.25</arcHeightFactor>
-			<speed>15</speed>
+			<speed>16</speed>
 			<shadowSize>1.8</shadowSize>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
 			<postExplosionSpawnThingDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</postExplosionSpawnThingDef>

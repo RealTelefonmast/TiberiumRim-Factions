@@ -19,7 +19,7 @@
 			<armorPenetrationBase>1</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
-<!--	
+	
 	<ThingDef ParentName="BaseBullet_TR">
 		<defName>Bullet_ArmCannonSniper</defName>
 		<label>bullet</label>
@@ -36,7 +36,6 @@
 			<speed>220</speed>
 			<armorPenetrationBase>1</armorPenetrationBase>
 		</projectile>
-	</ThingDef>	
-	-->
+	</ThingDef>
 	
 </Defs>
