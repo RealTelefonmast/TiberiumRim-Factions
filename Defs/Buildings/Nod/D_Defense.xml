@@ -19,8 +19,12 @@ This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Obelisk/Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6,6)</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
+			<drawSize>(3,6)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(1.5, 4, 1.5)</volume><!--width, vertical, height-->
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
 		</graphicData>
 		<costList>
 			<Nod_CarbonPlate>150</Nod_CarbonPlate>
@@ -49,7 +53,8 @@ This structure has resistance to Nod weapons.</description>
 							<texPath>Buildings/Nod/Defense/Obelisk/PowerOn</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(6,6)</drawSize>
+							<drawSize>(3,6)</drawSize>
+							<drawOffset>(0,0,0.5)</drawOffset>
 						</graphicData>
 						<layerTag>FXObelisk</layerTag>
 						<needsPower>true</needsPower>
@@ -59,7 +64,8 @@ This structure has resistance to Nod weapons.</description>
 							<texPath>Buildings/Nod/Defense/Obelisk/Charge</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
 							<shaderType>MoteGlow</shaderType>
-							<drawSize>(6,6)</drawSize>
+							<drawSize>(3,6)</drawSize>
+							<drawOffset>(0,0,0.5)</drawOffset>
 						</graphicData>
 						<layerTag>FXObelisk</layerTag>
 						<fxMode>Dynamic</fxMode>
@@ -112,7 +118,7 @@ This structure has resistance to Nod weapons.</description>
 					<li>
 						<canForceTarget>true</canForceTarget>
 						<turretGunDef>Gun_NodObelisk</turretGunDef>
-						<turretOffset>(0,0,4)</turretOffset>
+						<turretOffset>(0,0,4.5)</turretOffset>
 						<turretBurstWarmupTime>2.85</turretBurstWarmupTime>
 						<turretBurstCooldownTime>5</turretBurstCooldownTime>	
 					</li>
@@ -366,6 +372,10 @@ This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 			<drawOffset>(0,0,0.1)</drawOffset>
+			<shadowData>
+				<volume>(1.5, 1.5, 1.5)</volume><!--width, vertical, height-->
+				<offset>(0, 0, 0.1)</offset>
+			</shadowData>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Shredder</uiIconPath>
 		<costList>
@@ -489,6 +499,10 @@ This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 			<drawOffset>(0,0,0.1)</drawOffset>
+			<shadowData>
+				<volume>(1.5, 1.5, 1.5)</volume><!--width, vertical, height-->
+				<offset>(0, 0, 0.1)</offset>
+			</shadowData>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Flamer</uiIconPath>
 		<costList>
