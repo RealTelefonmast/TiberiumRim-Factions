@@ -232,13 +232,15 @@
 				<beamProps>
 					<damageDef>TRRailgun</damageDef>
 					<isStatic>true</isStatic>	
+					<spawnMotePerBeam>true</spawnMotePerBeam>
 					<damageBaseOverride>80</damageBaseOverride>
 					<stoppingPowerOverride>1</stoppingPowerOverride>
 					<armorPenetrationOverride>0.8</armorPenetrationOverride>
 					<impactEffecter>RailgunHit</impactEffecter>
+					<visWidth>0.6~0.65</visWidth>
 				</beamProps>
 				<originOffsetPerShot>
-					<li>(0, 0, -0.1)</li>
+					<li>(0, 0, 0.8)</li>
 				</originOffsetPerShot>
 				<hasStandardCommand>true</hasStandardCommand>
 				<requireLineOfSight>false</requireLineOfSight>
@@ -246,14 +248,13 @@
 				<range>39.9</range>	
 				<minRange>1.9</minRange>
 				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_GDI_Railgun</soundCast>
 				<soundCastTail>Shot_GDI_GunTail</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				
 				<!--<soundCastBeam></soundCastBeam>-->
-				<beamWidth>0.5</beamWidth>
+				<beamWidth>1</beamWidth>
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>

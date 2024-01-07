@@ -229,14 +229,14 @@
 					<spawnMotePerBeam>true</spawnMotePerBeam>
 					<damageBaseOverride>25</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
-					<armorPenetrationOverride>0.5</armorPenetrationOverride>
+					<armorPenetrationOverride>0.4</armorPenetrationOverride>
 					<impactEffecter>BeamHit</impactEffecter>
-					<visWidth>0.45~0.65</visWidth>
+					<visWidth>0.25~0.3</visWidth>
 				</beamProps>
 				<originOffsetPerShot>
-					<li>(0.05, 0, 0.85)</li>
-					<li>(0.05, 0, 0.85)</li>
-					<li>(0.05, 0, 0.85)</li>
+					<li>(0.04, 0, 0.75)</li>
+					<li>(0.05, 0, 0.75)</li>
+					<li>(0.06, 0, 0.75)</li>
 				</originOffsetPerShot>
 				
 				<hasStandardCommand>true</hasStandardCommand>
@@ -381,13 +381,15 @@
 					<spawnMotePerBeam>true</spawnMotePerBeam>
 					<damageBaseOverride>26</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
-					<armorPenetrationOverride>0.6</armorPenetrationOverride>
-					<visWidth>0.60~0.75</visWidth>
+					<armorPenetrationOverride>0.5</armorPenetrationOverride>
+					<impactEffecter>BeamHit</impactEffecter>
+					<visWidth>0.3~0.33</visWidth>
 				</beamProps>
 				<originOffsetPerShot>
-					<li>(0.05 ,  0  , -0.4)</li>
-					<li>(0, 0 , -0.4,  0.0)</li>
-					<li>(-0.05,  0  , -0.4)</li>
+					<li>(0.04, 0, 0.85)</li>
+					<li>(0.05, 0, 0.85)</li>
+					<li>(0.06, 0, 0.85)</li>
+					<li>(0.07, 0, 0.85)</li>
 				</originOffsetPerShot>
 				<forcedMissRadius>0</forcedMissRadius>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -408,7 +410,7 @@
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>
 				<beamMaxDeviation>5</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
-				<beamMoteDef>Mote_NodGunBeam</beamMoteDef>
+				<beamMoteDef>Mote_NodGunStrongBeam</beamMoteDef>
 				<beamChanceToStartFire>0.1</beamChanceToStartFire>
 				<beamChanceToAttachFire>0.1</beamChanceToAttachFire>
 				<beamFireSizeRange>0.1~0.2</beamFireSizeRange>

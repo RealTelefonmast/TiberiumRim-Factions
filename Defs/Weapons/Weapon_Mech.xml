@@ -50,7 +50,7 @@
 				<warmupTime>2</warmupTime>
 				<range>29.9</range>
 				<minRange>1.9</minRange>
-				<burstShotCount>3</burstShotCount>
+				<burstShotCount>5</burstShotCount>
 				<soundCast>Nod_AvatarLaser</soundCast>
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -60,8 +60,8 @@
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				
 				<!--<soundCastBeam></soundCastBeam>-->
-				<beamFullWidthRange>6.9</beamFullWidthRange>
-				<beamWidth>1.25</beamWidth>
+				<beamFullWidthRange>1.25</beamFullWidthRange>
+				<beamWidth>5</beamWidth>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>	
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>

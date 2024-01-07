@@ -111,7 +111,7 @@ Can attack beyond walls, but cannot be built indoors.</description>
 					<li>
 						<canForceTarget>true</canForceTarget>
 						<turretGunDef>Gun_NodObelisk</turretGunDef>
-						<turretOffset>(0,0,4.5)</turretOffset>
+						<turretOffset>(0,0,4)</turretOffset>
 						<turretBurstWarmupTime>2.85</turretBurstWarmupTime>
 						<turretBurstCooldownTime>5</turretBurstCooldownTime>	
 					</li>

@@ -33,10 +33,17 @@
 				<beamProps>
 					<damageDef>TRLaser</damageDef>
 					<isStatic>false</isStatic>
-					<damageBaseOverride>200</damageBaseOverride>
+					<damageBaseOverride>5</damageBaseOverride>
 					<stoppingPowerOverride>1</stoppingPowerOverride>
 					<armorPenetrationOverride>1</armorPenetrationOverride>
+					<visWidth>0.6~0.65</visWidth>
 					<impactEffecter>StrongBeamHit</impactEffecter>
+					<impactExplosion>
+						<damageOverride>150</damageOverride>
+						<damageDef>TRObeliskBlast</damageDef>
+						<explosionRadius>0.25</explosionRadius>
+  						<fireChance>1</fireChance>
+					</impactExplosion>
 					<impactFilth IsNull="True"/>
 				</beamProps>
 				<originEffecter>ObeliskOriginGlow</originEffecter>
@@ -44,7 +51,7 @@
 				<minHitHeight>1</minHitHeight>
 				
 				<originOffsetPerShot>
-					<li>(0,0,0)</li>
+					<li>(0,0,0.25)</li>
 				</originOffsetPerShot>
 				
 				<hasStandardCommand>true</hasStandardCommand>
@@ -53,13 +60,13 @@
 				<minRange>2.9</minRange>
 				<range>39.9</range>
 				<chargeSound>Obelisk_Chargup</chargeSound>
-				<soundCast>Obelisk_Shot</soundCast>		
+				<soundCast IsNull="True"/>
 				
 				<!--<soundCastBeam></soundCastBeam>-->
-				<beamFullWidthRange>0</beamFullWidthRange>
-				<beamWidth>12</beamWidth>
+				<beamFullWidthRange>8</beamFullWidthRange>
+				<beamWidth>8</beamWidth>
 				<burstShotCount>8</burstShotCount>
-				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>	
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>	
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>0.32</beamFleckChancePerTick>
@@ -68,15 +75,14 @@
 				<beamMoteDef>Mote_ObeliskBeam</beamMoteDef>
 				
 				<beamEndEffecterDef>AnyBeam_End</beamEndEffecterDef>
-				<beamChanceToStartFire>0.85</beamChanceToStartFire>
-				<beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-				<beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+				<beamChanceToStartFire>1</beamChanceToStartFire>
+				<beamChanceToAttachFire>1</beamChanceToAttachFire>
+				<beamFireSizeRange>0.45~0.5</beamFireSizeRange>
 				<beamStartOffset>0.15</beamStartOffset>
 				<beamLineFleckChanceCurve>
 					<points>
-						<li>(0, 0)</li>
-						<li>(0.65, 0.4)</li>
-						<li>(1, 0.75)</li>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
 					</points>
 				</beamLineFleckChanceCurve>
 			</li>
