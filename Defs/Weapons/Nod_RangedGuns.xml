@@ -231,11 +231,12 @@
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
 					<armorPenetrationOverride>0.5</armorPenetrationOverride>
 					<impactEffecter>BeamHit</impactEffecter>
+					<visWidth>0.45~0.65</visWidth>
 				</beamProps>
 				<originOffsetPerShot>
-					<li>(0.05, 0, -0.45)</li>
-					<li>(0, 0, -0.45)</li>
-					<li>(-0.05, 0, -0.45)</li>
+					<li>(0.05, 0, 0.85)</li>
+					<li>(0.05, 0, 0.85)</li>
+					<li>(0.05, 0, 0.85)</li>
 				</originOffsetPerShot>
 				
 				<hasStandardCommand>true</hasStandardCommand>
@@ -251,7 +252,6 @@
 				<soundCastTail>Shot_Nod_GunTail</soundCastTail>
 				<muzzleFlashScale>6</muzzleFlashScale>
 	
-				<beamWidth>0.1</beamWidth>
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
 				<beamFleckChancePerTick>1</beamFleckChancePerTick>
@@ -382,7 +382,7 @@
 					<damageBaseOverride>26</damageBaseOverride>
 					<stoppingPowerOverride>0.1</stoppingPowerOverride>
 					<armorPenetrationOverride>0.6</armorPenetrationOverride>
-					<impactEffecter></impactEffecter>
+					<visWidth>0.60~0.75</visWidth>
 				</beamProps>
 				<originOffsetPerShot>
 					<li>(0.05 ,  0  , -0.4)</li>

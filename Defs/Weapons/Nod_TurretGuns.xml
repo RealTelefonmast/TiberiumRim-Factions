@@ -44,7 +44,7 @@
 				<minHitHeight>1</minHitHeight>
 				
 				<originOffsetPerShot>
-					<li>(0,0,0.5)</li>
+					<li>(0,0,0)</li>
 				</originOffsetPerShot>
 				
 				<hasStandardCommand>true</hasStandardCommand>
