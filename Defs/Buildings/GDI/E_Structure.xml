@@ -4,7 +4,9 @@
 	<TR.TRThingDef ParentName="WallBase_TR" Name="GDIWall">
 		<defName>GDIWall</defName>
 		<label>GDI wall</label>
-		<description>An impassable wall, reinforced by GDI engineers.</description>
+		<description>An impassable wall, reinforced by GDI engineers.
+		
+This structure has resistance to GDI weapons.</description>
 		<graphicData>
 			<texPath>Buildings/GDI/Structure/Wall_GDI</texPath>
 		</graphicData>
@@ -29,12 +31,28 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<TR.TRThingDef ParentName="WallBase_TR">
 		<defName>GDIPillbox</defName>
 		<label>pillbox</label>
-		<description>Cover from gunfire.</description>
+		<description>Cover from gunfire, very effective.
+
+This structure has resistance to GDI weapons.</description>
 		<graphicData>
 			<texPath>Buildings/GDI/Structure/Pillbox_GDI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -84,12 +102,28 @@
 				<category>Defense</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>	
 	
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>DoorFrame_GDI</defName>
 		<label>GDI door frame</label>
-		<description>A metal frame to decorate doorways with.</description>
+		<description>A metal frame to decorate doorways with.
+
+This structure has resistance to GDI weapons.</description>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -146,12 +180,28 @@
 				<category>Decoration</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<TR.TRThingDef ParentName="DoorBase_TR">
 		<defName>GDI_Door</defName>
 		<label>GDI door</label>
-		<description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+		<description>Divides rooms. Must be manually opened and closed, which slows people down.
+
+This structure has resistance to GDI weapons.</description>
 		<graphicData>
 			<texPath>Buildings/GDI/Structure/Door_GDI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -181,12 +231,28 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 
 	<TR.TRThingDef ParentName="DoorBase_TR">
 		<defName>GDI_Autodoor</defName>
 		<label>GDI autodoor</label>
-		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.
+
+This structure has resistance to GDI weapons.</description>
 		<graphicData>
 			<texPath>Buildings/GDI/Structure/AutoDoor_GDI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -231,6 +297,20 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>	
 	
 </Defs>

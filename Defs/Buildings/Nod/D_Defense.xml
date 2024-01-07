@@ -11,7 +11,8 @@
 		<label>obelisk of light</label>
 		<description>A ultimate defense tower that makes the base impregnable.
 		
-Can attack beyond walls, but cannot be built indoors.</description>
+This turret can attack beyond walls, but cannot be built indoors.
+This structure has resistance to Nod weapons.</description>
 		<thingClass>TR.Building_Obelisk</thingClass>
 		<size>(3,3)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -73,7 +74,7 @@ Can attack beyond walls, but cannot be built indoors.</description>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>2500</basePowerConsumption>
+				<basePowerConsumption>3600</basePowerConsumption>
 				<transmitsPower>false</transmitsPower>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -85,7 +86,7 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		<hasTooltip>true</hasTooltip>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<specialDisplayRadius>39.9</specialDisplayRadius>
-		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 		</building>
@@ -118,12 +119,28 @@ Can attack beyond walls, but cannot be built indoors.</description>
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 
 	<TR.TRThingDef ParentName="NODTurret">
 		<defName>Nod_TurretHub</defName>
 		<label>turret hub</label>
-		<description>Allows you to construct multiple connected turrets.</description>
+		<description>Allows you to construct multiple connected turrets.
+		
+This structure has resistance to Nod weapons.</description>
 		<thingClass>TeleCore.Building_TurretHubCore</thingClass>
 		<size>(2,2)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -268,6 +285,20 @@ Can attack beyond walls, but cannot be built indoors.</description>
 				</turrets>-->
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 
 	<TR.TRThingDef Name="NodHubTurret" ParentName="NODTurret" Abstract="True">
@@ -330,7 +361,8 @@ Can attack beyond walls, but cannot be built indoors.</description>
 		<thingClass>TR.Building_NodHubTurret</thingClass>
 		<description>Nod's shredder turret, extremely effective towards unarmored infantry.
 		
-Can only be built near a Nod turret hub.</description>
+This structure can only be built near a Nod turret hub.
+This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
 			<drawOffset>(0,0,0.1)</drawOffset>
@@ -429,15 +461,30 @@ Can only be built near a Nod turret hub.</description>
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<!-- Flame Turret -->
 	<TR.TRThingDef ParentName="NodHubTurret">
 		<defName>Nod_FlameTurret</defName>
 		<label>flame turret</label>
-		<description>Nod's flame turret.
+		<description>Nod's powerful flame turret.
 		
-Can only be built near a Nod turret hub.</description>
+This structure can only be built near a Nod turret hub.
+This structure has resistance to Nod weapons.</description>
 		<thingClass>TR.Building_FlameTurret</thingClass>
 		<graphicData>
 			<texPath>Buildings/Nod/Defense/Turrets/Base</texPath>
@@ -519,13 +566,30 @@ Can only be built near a Nod turret hub.</description>
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>Nod_LaserFence</defName>
 		<label>laser fence</label>
-		<description>Use this to protect yourself from enemies!</description>
+		<description>Use this to protect yourself from enemies!
+
+This structure can be connected to each other of the same type.		
+This structure has resistance to Nod weapons.</description>
 		<thingClass>TR.Building_BeamHub</thingClass>
 		<category>Building</category>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -611,6 +675,20 @@ Can only be built near a Nod turret hub.</description>
 				<category>Defense</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<ThingDef ParentName="BuildingBase_TR">

@@ -10,7 +10,9 @@
 	<TR.TRThingDef ParentName="GDITurret">
 		<defName>GDI_Juggernaut</defName>
 		<label>juggernaut artillery</label>
-		<description>This advanced GDI defensive structure fires a 3 shot burst of shells. The juggernaut has been known as one of the most devastating walkers in the early Tiberium wars, destroying base after base with ease. This version is less mobile but just as devastating.\n\nOnly one can be built./n/n(currently only shoots one shell, which has increased damage and explosion radius)</description>
+		<description>This advanced GDI defensive structure fires a 3 shot burst of shells. The juggernaut has been known as one of the most devastating walkers in the early Tiberium wars, destroying base after base with ease. This version is less mobile but just as devastating.\n\nOnly one can be built.
+		
+This structure has resistance to GDI weapons.</description>
 		<thingClass>TeleCore.Building_TeleTurret</thingClass>
 		<size>(3,3)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -158,6 +160,20 @@
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<!---->
@@ -165,7 +181,9 @@
 	<TR.TRThingDef ParentName="GDITurret">
 		<defName>GDI_WatchTower</defName>
 		<label>watch tower</label>
-		<description>A GDI watch tower, fires automatically upon enemies.\n\nVulnerable to flame damage.</description>
+		<description>A GDI watch tower, fires automatically upon enemies.
+		
+This structure has resistance to GDI weapons.</description>
 		<thingClass>TeleCore.Building_TeleTurret</thingClass>
 		<size>(2,2)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -243,12 +261,6 @@
 		<placeWorkers>
 			<li>TeleCore.PlaceWorker_TurretGunTop</li>
 		</placeWorkers>
-		<damageMultipliers>
-			<li>
-				<damageDef>Flame</damageDef>
-				<multiplier>2</multiplier>
-			</li>
-		</damageMultipliers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<requisites>
 			<tiberiumResearch>
@@ -300,13 +312,29 @@
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 
 	<!-- Guardian turret -->
 	<TR.TRThingDef ParentName="GDITurret">
 		<defName>GDI_Guardian</defName>
 		<label>guardian cannon</label>
-		<description>A GDI guardian cannon, fires automatically upon enemies.\n\nVulnerable to flame damage.</description>
+		<description>A GDI guardian cannon, fires automatically upon enemies.
+		
+This structure has resistance to GDI weapons.</description>
 		<thingClass>TeleCore.Building_TeleTurret</thingClass>
 		<size>(2,2)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -386,12 +414,6 @@
 		<placeWorkers>
 			<li>TeleCore.PlaceWorker_TurretGunTop</li>
 		</placeWorkers>
-		<damageMultipliers>
-			<li>
-				<damageDef>Flame</damageDef>
-				<multiplier>2</multiplier>
-			</li>
-		</damageMultipliers>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<requisites>
 			<tiberiumResearch>
@@ -433,13 +455,29 @@
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<!-- Sonic Emitter -->
 	<TR.TRThingDef ParentName="GDITurret">
 		<defName>GDI_SonicEmitter</defName>
 		<label>Sonic Emitter</label>
-		<description>The sonic emitter, this heavy weapon clears anything in it's path.\n\nVulnerable by flame attack.</description>
+		<description>The sonic emitter, this heavy weapon clears anything in it's path.
+		
+This structure has resistance to GDI weapons.</description>
 		<thingClass>TR.Building_SonicEmitter</thingClass>
 		<size>(3,3)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -542,12 +580,6 @@
 			<turretTopOffset>(0, 0.1)</turretTopOffset>
 			-->
 		</building>
-		<damageMultipliers>
-			<li>
-				<damageDef>TRSonic</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-		</damageMultipliers>
 		<placeWorkers>
 			<li>TeleCore.PlaceWorker_TurretGunTop</li>
 		</placeWorkers>
@@ -581,6 +613,20 @@
 				</turrets>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRRailgun</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRSonic</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRShockWave</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef >
 	
 	<!--Test Stuff	

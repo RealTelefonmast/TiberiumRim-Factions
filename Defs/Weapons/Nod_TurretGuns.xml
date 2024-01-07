@@ -36,7 +36,7 @@
 					<damageBaseOverride>5</damageBaseOverride>
 					<stoppingPowerOverride>1</stoppingPowerOverride>
 					<armorPenetrationOverride>1</armorPenetrationOverride>
-					<visWidth>0.6~0.65</visWidth>
+					<visWidth>0.9~1</visWidth>
 					<impactEffecter>StrongBeamHit</impactEffecter>
 					<impactExplosion>
 						<damageOverride>150</damageOverride>

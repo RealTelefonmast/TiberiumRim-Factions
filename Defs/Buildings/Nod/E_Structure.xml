@@ -4,7 +4,9 @@
 	<TR.TRThingDef ParentName="WallBase_TR" Name="NodWall">
 		<defName>NodWall</defName>
 		<label>nod wall</label>
-		<description>An impassable wall, specifically designed for the Brotherhood.</description>
+		<description>An impassable wall, specifically designed for the Brotherhood.
+
+This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Structure/Wall</texPath>
 		</graphicData>
@@ -29,12 +31,28 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>DoorFrame_Nod</defName>
 		<label>Nod door arch</label>
-		<description>It is a arch frame to decorate the Nod door.</description>
+		<description>It is a arch frame to decorate the Nod door.
+		
+This structure has resistance to Nod weapons.</description>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -92,12 +110,28 @@
 				<category>Decoration</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 	
 	<TR.TRThingDef ParentName="DoorBase_TR">
 		<defName>Nod_Door</defName>
 		<label>Nod door</label>
-		<description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+		<description>Divides rooms. Must be manually opened and closed, which slows people down.
+		
+This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Structure/Door</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -127,12 +161,28 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>
 
 	<TR.TRThingDef ParentName="DoorBase_TR">
 		<defName>Nod_Autodoor</defName>
 		<label>Nod autodoor</label>
-		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.
+		
+This structure has resistance to Nod weapons.</description>
 		<graphicData>
 			<texPath>Buildings/Nod/Structure/AutoDoor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -177,5 +227,19 @@
 				<category>Structure</category>
 			</li>
 		</modExtensions>
+		<damageMultipliers>
+			<li>
+				<damageDef>TRLaser</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>TRObeliskBlast</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>			
+			<li>
+				<damageDef>TRNuke</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+		</damageMultipliers>
 	</TR.TRThingDef>	
 </Defs>
