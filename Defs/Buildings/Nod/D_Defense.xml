@@ -263,7 +263,7 @@ This structure has resistance to Nod weapons.</description>
 		<fillPercent>0.3</fillPercent>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Nod_CarbonPlate>40</Nod_CarbonPlate>
+			<Nod_CarbonPlate>50</Nod_CarbonPlate>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -700,6 +700,26 @@ This structure has resistance to Nod weapons.</description>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>LQ tiberium core charge left</fuelLabel>
+				<fuelGizmoLabel>sonic core charge</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Nod_LQTiberiumCore</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>100</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.05</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<atomicFueling>true</atomicFueling>
+				<fuelMultiplier>100</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new sonic core</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
 		</comps>
 		<drawOffscreen>true</drawOffscreen>
 		<passability>Impassable</passability>

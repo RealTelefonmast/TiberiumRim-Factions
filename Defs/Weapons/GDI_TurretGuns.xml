@@ -89,7 +89,7 @@
 				<defaultProjectile>Bullet_GDITurret</defaultProjectile>
 				<shotStartOffset>(0,0,1.5)</shotStartOffset>
 				<warmupTime>2.5</warmupTime>
-				<range>24.9</range>
+				<range>30.9</range>
 				<minRange>1.9</minRange>
 				<burstShotCount>8</burstShotCount>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -146,7 +146,7 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseWeapon_TR">
+	<!--<ThingDef ParentName="BaseWeapon_TR">
 		<defName>Gun_Guardian_Railgun</defName>
 		<label>guardian railgun cannon</label>
 		<description>pew pew</description>
@@ -197,8 +197,6 @@
 				<soundCastTail>Shot_GDI_GunTail</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>
 				<consumeFuelPerShot>2</consumeFuelPerShot>
-				
-				<!--<soundCastBeam></soundCastBeam>-->
 				<beamWidth>0.5</beamWidth>
 				<beamGroundFleckDef>Fleck_BeamScorchMark</beamGroundFleckDef>
 				<beamLineFleckDef>Fleck_BeamSparking</beamLineFleckDef>
@@ -219,7 +217,7 @@
 			</li>
 		</verbs>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-	</ThingDef>
+	</ThingDef>-->
 	
 	<ThingDef ParentName="BaseWeapon_TR">
 		<defName>Gun_SonicEmitter</defName>
@@ -253,7 +251,7 @@
 				<defaultProjectile>Projectile_SonicWave</defaultProjectile>
 				<requireLineOfSight>true</requireLineOfSight>
 				<warmupTime>2.25</warmupTime>
-				<range>22.9</range>
+				<range>24.9</range>
 				<minRange>2.9</minRange>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -266,7 +264,7 @@
 				<muzzleFlashScale>15</muzzleFlashScale>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<consumeFuelPerShot>0.5</consumeFuelPerShot>
 			</li>
 		</verbs>
 	</ThingDef>
