@@ -177,7 +177,7 @@ This structure has resistance to GDI weapons.</description>
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
-				<category>Decoration</category>
+				<category>Misc</category>
 			</li>
 		</modExtensions>
 		<damageMultipliers>

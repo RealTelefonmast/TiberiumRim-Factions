@@ -107,7 +107,7 @@ This structure has resistance to Nod weapons.</description>
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>Nod</groupDef>
-				<category>Decoration</category>
+				<category>Misc</category>
 			</li>
 		</modExtensions>
 		<damageMultipliers>

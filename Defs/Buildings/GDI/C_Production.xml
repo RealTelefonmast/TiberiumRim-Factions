@@ -3,7 +3,7 @@
 	
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>GDI_Factory</defName>
-		<label>GDI Factory</label>
+		<label>GDI fabricator</label>
 		<description>The GDI factory allows you to construct many different items, weapons and units if available.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<size>(3,2)</size>
@@ -105,7 +105,7 @@
 	
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>GDI_Hangar</defName>
-		<label>GDI vehicle drone factory</label>
+		<label>GDI vehicle factory</label>
 		<description>This hangar is used for mechanical unit construction.</description>
 		<size>(5,5)</size>
 		<minifiedDef />

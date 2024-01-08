@@ -79,7 +79,7 @@
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
-				<category>Defense</category>
+				<category>Superweapon</category>
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>
@@ -169,7 +169,7 @@
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
-				<category>Defense</category>
+				<category>Superweapon</category>
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>
@@ -240,7 +240,7 @@
 		<modExtensions>
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
-				<category>Defense</category>
+				<category>Superweapon</category>
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>

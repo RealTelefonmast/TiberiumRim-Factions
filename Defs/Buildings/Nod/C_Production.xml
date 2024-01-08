@@ -3,7 +3,7 @@
 	
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>Nod_Factory</defName>
-		<label>Nod Assembler</label>
+		<label>Nod assembler</label>
 		<description>The Nod Assembler is used to create high-tier materials and items.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<altitudeLayer>Building</altitudeLayer>
@@ -102,7 +102,7 @@
 	
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>Nod_Hangar</defName>
-		<label>Nod vehicle drone factory</label>
+		<label>Nod vehicle hangar</label>
 		<description>This hangar is used for mechanical unit construction.</description>
 		<size>(5,5)</size>
 		<minifiedDef />

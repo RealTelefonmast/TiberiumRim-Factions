@@ -51,7 +51,7 @@
 		<uiIconPath>Buildings/GDI/Misc/IonPC_Icon</uiIconPath>
 		<requisites>
 			<tiberiumResearch>
-				<li>GDIExperimental1</li>
+				<li>GDIExperimental2</li>
 			</tiberiumResearch>
 		</requisites>
 		<statBases>
@@ -74,6 +74,12 @@
 				<texPath>Buildings/GDI/Misc/IonPC_Blueprint</texPath>
 			</blueprintGraphicData>
 		</building>
+		<modExtensions>
+			<li Class="TeleCore.SubMenuExtension">
+				<groupDef>GDI</groupDef>
+				<category>Misc</category>
+			</li>
+		</modExtensions>
 	</TR.TRThingDef>
 
 	<!--not cool and no special-->

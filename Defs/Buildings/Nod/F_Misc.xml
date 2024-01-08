@@ -103,7 +103,7 @@
 		</graphicData>
 		<requisites>
 			<tiberiumResearch>
-				<li>NodExperimental1</li>
+				<li>NodExperimental2</li>
 			</tiberiumResearch>
 		</requisites>
 		<uiIconPath>Buildings/Nod/Misc/LaserPC_Icon</uiIconPath>
@@ -127,6 +127,12 @@
 				<texPath>Buildings/Nod/Misc/LaserPC_Blueprint</texPath>
 			</blueprintGraphicData>
 		</building>
+		<modExtensions>
+			<li Class="TeleCore.SubMenuExtension">
+				<groupDef>Nod</groupDef>
+				<category>Misc</category>
+			</li>
+		</modExtensions>
 	</TR.TRThingDef>
 	
 	<!--not cool and no special-->
