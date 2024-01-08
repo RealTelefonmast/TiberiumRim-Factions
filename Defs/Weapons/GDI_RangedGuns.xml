@@ -367,8 +367,8 @@
 				<requireLineOfSight>true</requireLineOfSight>
 				<warmupTime>3</warmupTime>
 				<range>24.9</range>
-				<minRange>1.9</minRange>
-				<burstShotCount>2</burstShotCount>
+				<minRange>2.9</minRange>
+				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<forcedMissRadius>1</forcedMissRadius>
 				<soundCast>Shot_GDI_Sonic</soundCast>

@@ -162,11 +162,11 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>TRSonic</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
 			<explosionRadius>1.1</explosionRadius>
 			<stoppingPower>0.5</stoppingPower>
-			<speed>25</speed>
-			<screenShakeFactor>0.15</screenShakeFactor>
+			<speed>22</speed>
+			<screenShakeFactor>0.03</screenShakeFactor>
 			<soundExplode>BulletImpact_Flesh</soundExplode>
 			<armorPenetrationBase>0.1</armorPenetrationBase>
 		</projectile>
@@ -184,10 +184,11 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>TRSonic</damageDef>
-			<damageAmountBase>15</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
 			<explosionRadius>1.1</explosionRadius>
 			<stoppingPower>0.5</stoppingPower>
 			<speed>25</speed>
+			<screenShakeFactor>0.03</screenShakeFactor>
 			<soundExplode>BulletImpact_Flesh</soundExplode>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 		</projectile>
