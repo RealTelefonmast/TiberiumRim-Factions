@@ -166,9 +166,9 @@
 			<explosionRadius>1.1</explosionRadius>
 			<stoppingPower>0.5</stoppingPower>
 			<speed>22</speed>
-			<screenShakeFactor>0.03</screenShakeFactor>
+			<screenShakeFactor>0.05</screenShakeFactor>
 			<soundExplode>BulletImpact_Flesh</soundExplode>
-			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 	
@@ -188,7 +188,7 @@
 			<explosionRadius>1.1</explosionRadius>
 			<stoppingPower>0.5</stoppingPower>
 			<speed>25</speed>
-			<screenShakeFactor>0.03</screenShakeFactor>
+			<screenShakeFactor>0.05</screenShakeFactor>
 			<soundExplode>BulletImpact_Flesh</soundExplode>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 		</projectile>

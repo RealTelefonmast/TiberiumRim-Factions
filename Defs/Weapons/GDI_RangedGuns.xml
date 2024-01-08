@@ -243,7 +243,7 @@
 					<li>(0, 0, 0.8)</li>
 				</originOffsetPerShot>
 				<hasStandardCommand>true</hasStandardCommand>
-				<requireLineOfSight>false</requireLineOfSight>
+				<requireLineOfSight>true</requireLineOfSight>
 				<warmupTime>3.5</warmupTime>
 				<range>39.9</range>	
 				<minRange>1.9</minRange>
