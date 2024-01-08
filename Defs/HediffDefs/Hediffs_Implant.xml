@@ -23,12 +23,13 @@
 			<explosionProps>
 				<explosionRadius>6.9</explosionRadius>
 				<damageDef>TiberiumExplosionFrag</damageDef>
-				<damageOverride>75</damageOverride>
-				<postSpawnDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</postSpawnDef>
-				<postSpawnChance>0.25</postSpawnChance>
-				<postExplosionGasType MayRequire="Ludeon.RimWorld.Biotech">ToxGas</postExplosionGasType>
+				<damageOverride>100</damageOverride>
+				<preSpawnDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</preSpawnDef>
+				<preSpawnChance>0.25</preSpawnChance>
+				<postSpawnDef>FilthTiberiumGreen</postSpawnDef>
+				<postSpawnChance>0.15</postSpawnChance>
 			</explosionProps>
-			<labelWhenExploded>ruptured</labelWhenExploded>
+			<labelWhenExploded>X</labelWhenExploded>
 		</li>
 		<li Class="HediffCompProperties_ReactOnDamage">
 			<damageDefIncoming>EMP</damageDefIncoming>
@@ -47,10 +48,10 @@
 	<graphicData>
 		<texPath>Items/Weapons/Nod/SuicideBomb</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>1.25</drawSize>
+		<drawSize>1</drawSize>
 	</graphicData>
     <costList>
-      <Uranium>15</Uranium>
+      <Uranium>30</Uranium>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
@@ -64,14 +65,13 @@
 		<skillRequirements>
 			<Crafting>8</Crafting>
 		</skillRequirements>
-      <researchPrerequisite></researchPrerequisite>
     </recipeMaker>
 	<techHediffsTags>
 		<li>ChemicalBombImplant</li>
 	</techHediffsTags>
 		<requisites>
 			<tiberiumResearch>
-				<li>NodExperimental1</li>
+				<li>NodExperimental2</li>
 			</tiberiumResearch>
 		</requisites>
   </TR.TRThingDef>
@@ -101,7 +101,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Torso</li>
+      <li>Heart</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ChemicalBombImplant</addsHediff>
   </RecipeDef>
