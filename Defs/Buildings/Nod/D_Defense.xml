@@ -28,7 +28,7 @@ This structure has resistance to Nod weapons.</description>
 		</graphicData>
 		<costList>
 			<Nod_CarbonPlate>150</Nod_CarbonPlate>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<Nod_LQTiberiumCore>2</Nod_LQTiberiumCore>
 		</costList>
 		<uiIconPath>Buildings/Nod/Defense/Obelisk/Icon</uiIconPath>
 		<uiIconScale>0.90</uiIconScale>
@@ -220,8 +220,8 @@ This structure has resistance to Nod weapons.</description>
 		<fillPercent>0.3</fillPercent>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Nod_CarbonPlate>50</Nod_CarbonPlate>
-			<ComponentSpacer>10</ComponentSpacer>
+			<Nod_CarbonPlate>40</Nod_CarbonPlate>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<building>
@@ -613,7 +613,7 @@ This structure has resistance to Nod weapons.</description>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25, 1.25)</drawSize>
 		</graphicData>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockLight>false</blockLight>
 		<blockWind>false</blockWind>
@@ -624,9 +624,8 @@ This structure has resistance to Nod weapons.</description>
 		<fillPercent>0.6</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Beauty>5</Beauty>
-			<WorkToBuild>350</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<building>

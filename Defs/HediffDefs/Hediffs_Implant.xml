@@ -26,6 +26,7 @@
 				<damageOverride>75</damageOverride>
 				<postSpawnDef MayRequire="telefonmast.tiberiumrim.main">Gas_ChemicalInterface</postSpawnDef>
 				<postSpawnChance>0.25</postSpawnChance>
+				<postExplosionGasType MayRequire="Ludeon.RimWorld.Biotech">ToxGas</postExplosionGasType>
 			</explosionProps>
 			<labelWhenExploded>ruptured</labelWhenExploded>
 		</li>
@@ -50,7 +51,7 @@
 	</graphicData>
     <costList>
       <Uranium>15</Uranium>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
@@ -118,7 +119,7 @@
   </RecipeDef>
   
   
-	<HediffDef ParentName="ImplantHediffBase">
+	<HediffDef ParentName="ImplantHediffBase" MayRequire="telefonmast.tiberiumrim.main">
     <defName>InfusionImplant</defName>
     <label>tiberium infusion</label>
     <labelNoun>a tiberium infusion</labelNoun>
@@ -140,7 +141,7 @@
   </HediffDef>
 
 
-  <TR.TRThingDef ParentName="BodyPartBionicBase">
+  <TR.TRThingDef ParentName="BodyPartBionicBase" MayRequire="telefonmast.tiberiumrim.main">
     <defName>InfusionImplant</defName>
     <label>tiberium infusion</label>
     <description>A special tiberium infusion for the nod soldiers. It changes the organs to almost fit the Tiberium environment. but users become sensitive to anger, and cannot be removed.</description>
@@ -180,7 +181,7 @@
 	</requisites>
   </TR.TRThingDef>
 
-  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase" MayRequire="telefonmast.tiberiumrim.main">
     <defName>InstallInfusionImplant</defName>
     <label>install tiberium infusion</label>
     <description>Install a tiberium infusion.</description>

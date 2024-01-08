@@ -3,8 +3,8 @@
   
   	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>TemplePrime</defName>
-		<label>Temple Prime</label>
-		<description>uwu</description>
+		<label>Nod temple</label>
+		<description>A big structure that is the center of all faiths, also a facility capable of launching huge ballistic missiles.</description>
 		<thingClass>TR.Building_Temple</thingClass>
 		<size>(7,7)</size>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -14,9 +14,9 @@
 			<drawSize>(7,8)</drawSize>
 			<drawOffset>(0,0,0.5)</drawOffset>
 		</graphicData>
-		<uiIconPath>Buildings/Nod/Defense/Temple/Icon</uiIconPath>
 		<costList>
-			<ComponentIndustrial>12</ComponentIndustrial>
+			<Nod_CarbonPlate>250</Nod_CarbonPlate>
+			<Nod_LQTiberiumCore>5</Nod_LQTiberiumCore>
 		</costList>
 		<superWeapon>
 			<designator>TR.Designator_NodNukeTargeter</designator>
@@ -28,10 +28,10 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
-			<Flammability>0.5</Flammability>
-			<WorkToBuild>100000</WorkToBuild>
+			<Flammability>0.25</Flammability>
+			<WorkToBuild>50000</WorkToBuild>
 			<Mass>1000</Mass>
-			<Beauty>100</Beauty>
+			<Beauty>250</Beauty>
 		</statBases>
 		<comps>
 			<li Class="TeleCore.CompProperties_FX"> 
@@ -89,8 +89,8 @@
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>50</basePowerConsumption>
-				<transmitsPower>true</transmitsPower>
+				<basePowerConsumption>3600</basePowerConsumption>
+				<transmitsPower>false</transmitsPower>
 			</li>
 		</comps>
 		<drawOffscreen>false</drawOffscreen>
@@ -117,7 +117,7 @@
 		</modExtensions>
 	</TR.TRThingDef>
 	
-	<TR.TRThingDef ParentName="BuildingBase_TR">
+<!--	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>TemplePrimeTemplate</defName>
 		<label>Temple Prime Template</label>
 		<description>poggers</description>
@@ -159,6 +159,6 @@
 				<category>Defense</category>
 			</li>
 		</modExtensions>
-	</TR.TRThingDef>
+	</TR.TRThingDef>-->
 	
 </Defs>

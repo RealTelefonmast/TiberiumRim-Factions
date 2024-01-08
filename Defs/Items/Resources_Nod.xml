@@ -73,9 +73,8 @@
 			</tiberiumResearch>
 		</requisites>
 	</TR.TRThingDef>
-	
-		<!-- custom tiberium spawner explosion 
-	<ThingDef ParentName="MakeableDrugPillBase">
+
+	<ThingDef ParentName="MakeableDrugPillBase" MayRequire="telefonmast.tiberiumrim.main">
 		<defName>TiberiumInfusion</defName>
 		<label>Tiberium Infusion</label>
 		<description>This infusion will cure most Tiberium sickness and add a permanent Tiberium Immunity to the consumer.</description>
@@ -112,17 +111,17 @@
 		</recipeMaker>
 		<costList>
 			<Neutroamine>10</Neutroamine>
-			<MedicineIndustrial>1</MedicineIndustrial>
-			<TiberiumPlantTree>10</TiberiumPlantTree>
-			<TiberiumPlantBerry>10</TiberiumPlantBerry>
-			<TiberiumPlantGrass>10</TiberiumPlantGrass>
-			<TiberiumPlantShroom>10</TiberiumPlantShroom>
+			<MedicineSpacer>1</MedicineSpacer>
 		</costList>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
+		<requisites>
+			<tiberiumResearch>
+				<li>NodExperimental2</li>
+			</tiberiumResearch>
+		</requisites>
 	</ThingDef>
-	-->
 	
 	<!-- 
 
