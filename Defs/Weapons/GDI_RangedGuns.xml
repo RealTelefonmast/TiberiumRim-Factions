@@ -22,7 +22,7 @@
 		<weaponClasses>
 			<li>Ranged</li>
 		</weaponClasses>
-	</TR.TRThingDef>	
+	</TR.TRThingDef>
 
 	<TR.TRThingDef ParentName="GDI_Gun"> <!--balance standard - assault rifle + -->
 		<defName>GDI_StandardRifle</defName>
@@ -215,7 +215,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.10</MoveSpeed>
+					<MoveSpeed>-0.2</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_GDIZoneSuit</li>
@@ -334,7 +334,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.20</MoveSpeed>
+					<MoveSpeed>-0.2</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_GDIZoneSuit</li>
@@ -343,8 +343,7 @@
 		</conditionalStatOffsets>
 		<costList>
 			<GDI_ReinforcedPlate>50</GDI_ReinforcedPlate>
-			<GDI_SonicCore>1</GDI_SonicCore>
-			<ComponentSpacer>3</ComponentSpacer>
+			<GDI_SonicCore>2</GDI_SonicCore>
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">
@@ -439,7 +438,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.40</MoveSpeed>
+					<MoveSpeed>-0.4</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_GDIZoneSuit</li>
@@ -509,7 +508,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.40</MoveSpeed>
+					<MoveSpeed>-0.4</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_GDIZoneSuit</li>
@@ -518,8 +517,7 @@
 		</conditionalStatOffsets>
 		<costList>
 			<GDI_Mortar>1</GDI_Mortar>
-			<GDI_SonicCore>1</GDI_SonicCore>
-			<ComponentSpacer>2</ComponentSpacer>
+			<GDI_SonicCore>2</GDI_SonicCore>
 		</costList>
 		<verbs>
 			<li>

@@ -218,6 +218,7 @@
 		</statBases>
 		<costList>
 			<Nod_StandardRifle>1</Nod_StandardRifle>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<verbs>
@@ -352,7 +353,7 @@
 	<TR.TRThingDef ParentName="Nod_Gun">
 		<defName>Nod_LaserRifleLarge</defName>
 		<label>Nod advanced laser rifle</label>
-		<description>A rifle using Nod's advanced specialized laser technology.</description>
+		<description>A rifle using Nod's advanced specialized laser technology. It make slows the owner's movement speed, the penalty is removed when worn with Black Hand Armor.</description>
 		<graphicData>
 			<texPath>Items/Weapons/Nod/Rifle_Laser_Heavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -368,9 +369,20 @@
 			<AccuracyLong>0.6</AccuracyLong>
 			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
 		</statBases>
+		<conditionalStatOffsets>
+			<li>
+				<unequippedOffsets>
+					<MoveSpeed>-0.2</MoveSpeed>
+				</unequippedOffsets>
+				<requiredEquip>
+					<li>Apparel_NodBlackHand</li>
+				</requiredEquip>
+			</li>
+		</conditionalStatOffsets>
 		<costList>
 			<Nod_LaserRifleSmall>1</Nod_LaserRifleSmall>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Nod_LQTiberiumCore>1</Nod_LQTiberiumCore>
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">
@@ -465,7 +477,7 @@
 	<TR.TRThingDef ParentName="Nod_Gun">
 		<defName>Nod_Flamethrower</defName>
 		<label>Nod flamethrower</label>
-		<description>A Blackhand flamethrower, cleanse the your opponents! Made to be used in conjunction with the black hand armor.\n\nUpgradable to the chemicalspray.</description>
+		<description>A Blackhand flamethrower, cleanse the your opponents! It make slows the owner's movement speed, the penalty is removed when worn with Black Hand Armor.\n\nUpgradable to the chemicalspray.</description>
 		<graphicData>
 			<texPath>Items/Weapons/Nod/FlameThrower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -484,7 +496,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.3</MoveSpeed>
+					<MoveSpeed>-0.4</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_NodBlackHand</li>
@@ -556,7 +568,7 @@
 	<TR.TRThingDef ParentName="Nod_Gun">
 		<defName>Nod_Chemicalthrower</defName>
 		<label>Nod chemicalspray</label>
-		<description>An advcanced and highly toxic weapon using Nod's liquid Tiberium technology. Made to be used in conjunction with the black hand armor.</description>
+		<description>An advcanced and highly toxic weapon using Nod's liquid Tiberium technology. It make slows the owner's movement speed, the penalty is removed when worn with Black Hand Armor.</description>
 		<graphicData>
 			<texPath>Items/Weapons/Nod/ChemicalThrower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -575,7 +587,7 @@
 		<conditionalStatOffsets>
 			<li>
 				<unequippedOffsets>
-					<MoveSpeed>-0.3</MoveSpeed>
+					<MoveSpeed>-0.4</MoveSpeed>
 				</unequippedOffsets>
 				<requiredEquip>
 					<li>Apparel_NodBlackHand</li>
@@ -584,8 +596,8 @@
 		</conditionalStatOffsets>
 		<costList>
 			<Nod_Flamethrower>1</Nod_Flamethrower>
-			<Nod_LQTiberiumCore>1</Nod_LQTiberiumCore>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Nod_LQTiberiumCore>1</Nod_LQTiberiumCore>			
 		</costList>
 		<verbs>
 			<li Class="TeleCore.VerbProperties_Extended">

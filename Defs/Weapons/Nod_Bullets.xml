@@ -163,7 +163,7 @@
 			<damageDef>TiberiumExplosionGas</damageDef>
 			<damageAmountBase>9</damageAmountBase>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
-			<arcHeightFactor>1.25</arcHeightFactor>
+			<arcHeightFactor>0.75</arcHeightFactor>
 			<speed>16</speed>
 			<shadowSize>1.8</shadowSize>
 			<soundExplode>Shot_Nod_FlameTail</soundExplode>
@@ -179,7 +179,7 @@
 					<impactEffecter>ChemicalHit</impactEffecter>
 					<impactFilth>
 						<filths>
-							<li>FilthTibLiquidGreen, 0.5</li>
+							<li>FilthTibLiquidGreen, 0.15</li>
 						</filths>
 						<spreadRadius>1</spreadRadius>
 					</impactFilth>
