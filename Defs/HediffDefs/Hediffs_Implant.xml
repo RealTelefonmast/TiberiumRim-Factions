@@ -3,9 +3,9 @@
 
   <HediffDef ParentName="ImplantHediffBase">
     <defName>ChemicalBombImplant</defName>
-    <label>suicide bomb implant</label>
+    <label>bomb heart</label>
     <labelNoun>a suicide bomb implant</labelNoun>
-    <description>An installed bionic implant, connected to the strong chemical suicide bomb. Also improves body response.</description>
+    <description>An installed bionic implant, connected to the strong chemical bomb. It replaces the heart, explodes when the user die. Also improves body response.</description>
     <descriptionHyperlinks><ThingDef>ChemicalBombImplant</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>ChemicalBombImplant</spawnThingOnRemoved>
     <stages>
@@ -43,7 +43,7 @@
   <TR.TRThingDef ParentName="BodyPartBionicBase">
     <defName>ChemicalBombImplant</defName>
     <label>suicide bomb implant</label>
-    <description>An installed bionic implant, connected to the strong chemical suicide bomb. Take your pawn on a suicide mission.</description>
+    <description>A strong chemical suicide bomb. It replaces the heart, explodes when the user die. Also improves body response. Take your pawn on a suicide mission.</description>
     <descriptionHyperlinks><RecipeDef>InstallChemicalBombImplant</RecipeDef></descriptionHyperlinks>
 	<graphicData>
 		<texPath>Items/Weapons/Nod/SuicideBomb</texPath>
