@@ -52,7 +52,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>10000</workAmount>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<networkCost>
 			<costSet>
@@ -82,16 +82,18 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ComponentSpacer</li>
+				<li>Gold</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 		  <GDI_SonicCore>1</GDI_SonicCore>
 		</products>
+		<workSkill>Crafting</workSkill>
 		<skillRequirements>
 			<Crafting>12</Crafting>
 		</skillRequirements>
-		<workSkill>Crafting</workSkill>
 	</TeleCore.RecipeDef_Network>
+
 	
 	<!-- Nod -->
 	<TeleCore.RecipeDef_Network>
@@ -144,7 +146,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>10000</workAmount>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<networkCost>
 			<costSet>
@@ -174,15 +176,16 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ComponentSpacer</li>
+				<li>Uranium</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 		  <Nod_LQTiberiumCore>1</Nod_LQTiberiumCore>
 		</products>
+		<workSkill>Crafting</workSkill>
 		<skillRequirements>
 			<Crafting>12</Crafting>
 		</skillRequirements>
-		<workSkill>Crafting</workSkill>
 	</TeleCore.RecipeDef_Network>
 	
 </Defs>
