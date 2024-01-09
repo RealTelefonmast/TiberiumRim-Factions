@@ -516,6 +516,7 @@
 			<Insulation_Cold>25</Insulation_Cold>
 			<Insulation_Heat>250</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
+			<SmokepopBeltRadius>1.9</SmokepopBeltRadius>
 		</statBases>
 		<equippedStatOffsets>
 			<ExtraCarryWeight>75</ExtraCarryWeight>
@@ -556,38 +557,26 @@
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
-			<!--TODO: ADD CUSTOM FUEL / MAKE TIBERIUM GAS OBJECT CLASS-->
 			<li Class="CompProperties_Reloadable">
-				<maxCharges>2</maxCharges>
+				<maxCharges>3</maxCharges>
 				<ammoDef>Chemfuel</ammoDef>
-				<ammoCountPerCharge>50</ammoCountPerCharge>
+				<ammoCountToRefill>10</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
-				<chargeNoun>incendiary</chargeNoun>
+				<chargeNoun>smokepop</chargeNoun>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
 		<verbs>
 			<li>
-				<label>chemical grenade</label>
-				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<verbClass>Verb_Smokepop</verbClass>
+				<label>personal smoke</label>
+				<violent>false</violent>
 				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>false</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 				<onlyManualCast>True</onlyManualCast>
-				<range>9.9</range>
-				<forcedMissRadius>0.9</forcedMissRadius>
-				<warmupTime>1.5</warmupTime>
-				<noiseRadius>4</noiseRadius>
-				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-				<soundCast>ThrowGrenade</soundCast>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<defaultProjectile>Bullet_Nod_Grenade</defaultProjectile>
-				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 			</li>
 		</verbs>
 		<requisites>

@@ -539,7 +539,7 @@
 		</graphicData>
 		<costList>
 			<GDI_ReinforcedPlate>150</GDI_ReinforcedPlate>
-			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentSpacer>9</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>100000</WorkToMake>
@@ -552,6 +552,7 @@
 			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>100</Insulation_Heat>
 			<EquipDelay>20</EquipDelay>
+			<JumpRange>12.9</JumpRange>
 		</statBases>
 		<equippedStatOffsets>
 			<Flammability>-0.6</Flammability>
@@ -594,10 +595,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<comps>
-			<li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_Reloadable">
+			<li Class="CompProperties_Reloadable" MayRequire="Ludeon.RimWorld.Royalty" >
 				<maxCharges>3</maxCharges>
 				<ammoDef>Chemfuel</ammoDef>
-				<ammoCountPerCharge>50</ammoCountPerCharge>
+				<ammoCountPerCharge>25</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
@@ -606,24 +607,25 @@
 			</li>
 		</comps>
 		<verbs>
-			<li MayRequire="Ludeon.RimWorld.Royalty">
+			<li>
 				<verbClass>Verb_Jump</verbClass>
-				<label>power jump</label>
-				<commandIcon>Things/Pawn/Humanlike/Apparel/JumpPack/JumpPack</commandIcon>
+				<label>zone jump</label>
 				<violent>false</violent>
 				<hasStandardCommand>true</hasStandardCommand>
 				<onlyManualCast>True</onlyManualCast>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<warmupTime>0.5</warmupTime>
 				<warmupEffecter>JumpWarmupEffect</warmupEffecter>
-				<requireLineOfSight>false</requireLineOfSight>
+				<requireLineOfSight>true</requireLineOfSight>
+				<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
+				<soundLanding>JumpPackLand</soundLanding>
 				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-					<canTargetPawns>false</canTargetPawns>
-					<canTargetBuildings>false</canTargetBuildings>
-				</targetParams>
-			</li>
-		</verbs>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+      </li>
+    </verbs>
 		<requisites>
 			<tiberiumResearch>
 				<li>GDIExperimental3</li>

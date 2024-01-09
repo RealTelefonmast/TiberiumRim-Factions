@@ -41,7 +41,7 @@ This structure has resistance to Nod weapons.</description>
 			<isInert>true</isInert>
 		</building>
 		<costList>
-			<Nod_CarbonPlate>10</Nod_CarbonPlate>
+			<Nod_CarbonPlate>15</Nod_CarbonPlate>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -430,7 +430,7 @@ This structure has resistance to Nod weapons.</description>
 		</graphicData>
 		<uiIconPath>Buildings/Nod/Defense/Turrets/Shredder</uiIconPath>
 		<costList>
-			<Nod_CarbonPlate>10</Nod_CarbonPlate>
+			<Nod_CarbonPlate>15</Nod_CarbonPlate>
 		</costList>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
@@ -643,7 +643,7 @@ This structure has resistance to Nod weapons.</description>
 		</graphicData>
 		<costList>
 			<Nod_CarbonPlate>150</Nod_CarbonPlate>
-			<Nod_LQTiberiumCore>2</Nod_LQTiberiumCore>
+			<Nod_LQTiberiumCore>3</Nod_LQTiberiumCore>
 		</costList>
 		<uiIconPath>Buildings/Nod/Defense/Obelisk/Icon</uiIconPath>
 		<uiIconScale>0.90</uiIconScale>

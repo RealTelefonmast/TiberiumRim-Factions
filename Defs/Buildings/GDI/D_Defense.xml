@@ -390,7 +390,7 @@ This structure has resistance to GDI weapons.</description>
 		<pathCost>70</pathCost>
 		<fillPercent>0.3</fillPercent>
 		<costList>
-			<GDI_ReinforcedPlate>120</GDI_ReinforcedPlate>
+			<GDI_ReinforcedPlate>150</GDI_ReinforcedPlate>
 			<GDI_SonicCore>2</GDI_SonicCore>
 		</costList>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

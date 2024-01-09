@@ -116,7 +116,7 @@ This structure has resistance to GDI weapons.</description>
 				<multiplier>0.25</multiplier>
 			</li>
 		</damageMultipliers>
-	</TR.TRThingDef>	
+	</TR.TRThingDef>
 	
 	<TR.TRThingDef ParentName="BuildingBase_TR">
 		<defName>DoorFrame_GDI</defName>
