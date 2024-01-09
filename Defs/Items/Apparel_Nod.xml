@@ -109,6 +109,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Items/Apparel/Nod_Militia/MilitiaSuit</wornGraphicPath>
 			<layers>
+				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
@@ -242,6 +243,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Items/Apparel/Nod_Soldier/NodSolderSuit</wornGraphicPath>
 			<layers>
+				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
@@ -538,6 +540,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Items/Apparel/Nod_Blackhand/BHSuit</wornGraphicPath>
 			<layers>
+				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<tags>

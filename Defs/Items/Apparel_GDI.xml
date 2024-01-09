@@ -132,6 +132,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Items/Apparel/GDI_Soldier/SolderSuit</wornGraphicPath>
 			<layers>
+				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
@@ -577,6 +578,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Items/Apparel/GDI_Zone/ZoneSuit</wornGraphicPath>
 			<layers>
+				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
