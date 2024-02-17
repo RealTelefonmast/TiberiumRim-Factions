@@ -3,7 +3,6 @@ using System.Text;
 using RimWorld;
 using RimWorld.Planet;
 using TeleCore.Data.Events;
-using TR.Satellites;
 using Verse;
 
 namespace TR;

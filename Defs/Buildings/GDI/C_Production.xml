@@ -106,11 +106,13 @@
 	<TR.TRThingDef ParentName="StationBase_TR">
 		<defName>GDI_Hangar</defName>
 		<label>GDI vehicle factory</label>
+		<thingClass>TR.Building_Hangar</thingClass>
 		<description>This hangar is used for mechanical unit construction.</description>
 		<size>(5,5)</size>
 		<minifiedDef />
 		<thingCategories Inherit="false" />
 		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Buildings/GDI/Production/Hangar/Base</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -170,6 +172,12 @@
 					</li>
 				</fxLayers>
 			</li>
+			<li Class="TR.CompProperties_MechStation">
+				<mechRecipes>
+					<li>MakeRepairDroneCommon</li>
+					<!--<li>MakeGDIMammoth</li>-->
+				</mechRecipes>
+			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>500</basePowerConsumption>
@@ -186,6 +194,13 @@
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>GDI</groupDef>
 				<category>Processing</category>
+			</li>
+			<li Class="TeleCore.TeleDefExtension">
+				<thingGroups>
+					<groups>
+						<li>MechHangars</li>
+					</groups>
+				</thingGroups>
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>

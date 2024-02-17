@@ -14,7 +14,8 @@ namespace TR
         private IntVec3 target;
         private bool[] directions = new bool[2] {false, false};
         private bool settingFireWall = false;
-
+        
+        private bool firewallActive;
         private int swayTicksDone = 0;
         private static int swayTicks = 200;
 
@@ -95,13 +96,18 @@ namespace TR
         public override void Tick()
         {
             base.Tick();
-            if (HoldingFire || !fireWallPos.IsValid) return;
+            if (HoldingFire || !fireWallPos.IsValid)
+            {
+                ClearAttack();
+                return;
+            }
             TargetLocTick();
-            OrderAttack(target);
-            this.AttackVerb.TryStartCastOn(CurrentTarget, false, true);
+            //OrderAttack(target);
+            DoAttackNow(target);
+            //this.AttackVerb.TryStartCastOn(CurrentTarget, false, true);
 
-            OnAttackedTarget(CurrentTarget);
-            OrderAttack(target);
+            //OnAttackedTarget(CurrentTarget);
+            //OrderAttack(target);
         }
 
         public override string GetInspectString()
@@ -111,7 +117,7 @@ namespace TR
             strBuilder.AppendLine("Tick: " + swayTicksDone + " / " + swayTicks);
             strBuilder.AppendLine("Pct: " + (swayTicksDone / (float)swayTicks).ToStringPercent());
             strBuilder.AppendLine("RadOff: " + curDegreeOff);
-            return strBuilder.ToString();
+            return strBuilder.ToString().TrimStart().TrimEndNewlines();
         }
 
         protected override void OnResetOrderedAttack()
@@ -141,43 +147,58 @@ namespace TR
                 yield return gizmo;
             }
 
-            yield return new Command_Action
+            if (firewallActive)
             {
-                defaultLabel = "FireWall",
-                action = delegate
+                yield return new Command_Action
                 {
-                    settingFireWall = true;
-                    swayTicksDone = 0;
-                    growthTicks = 0;
-                    Find.Targeter.BeginTargeting(new TargetingParameters
+                    defaultLabel = "Cancel FireWall",
+                    action = delegate
                     {
-                        canTargetBuildings = true,
-                        canTargetFires = false,
-                        canTargetItems = true,
-                        canTargetLocations = true,
-                        canTargetPawns = true,
-                        canTargetSelf = false,
+                        firewallActive = false;
+                        fireWallPos = LocalTargetInfo.Invalid;
                     },
-                    delegate (LocalTargetInfo target)
+                };
+            }
+            else
+            {
+                yield return new Command_Action
+                {
+                    defaultLabel = "FireWall",
+                    action = delegate
                     {
-                        settingFireWall = false;
-                        var from = Position;
-                        var to = target.Cell;
-                        var distance = from.DistanceTo(to);
+                        settingFireWall = true;
+                        swayTicksDone = 0;
+                        growthTicks = 0;
+                        Find.Targeter.BeginTargeting(new TargetingParameters
+                            {
+                                canTargetBuildings = true,
+                                canTargetFires = false,
+                                canTargetItems = true,
+                                canTargetLocations = true,
+                                canTargetPawns = true,
+                                canTargetSelf = false,
+                            },
+                            delegate(LocalTargetInfo target)
+                            {
+                                firewallActive = true;
+                                var from = Position;
+                                var to = target.Cell;
+                                var distance = from.DistanceTo(to);
 
-                        var range = Range - 1.49f;
-                        if (distance < range)
-                        {
-                            var normed = (to - from).ToVector3().normalized;
-                            IntVec3 newTo = from + (normed * range).ToIntVec3();
-                            to = newTo;
-                        }
-                        fireWallPos = to;
-                        distanceVector = (fireWallPos.Cell - Position).ToVector3Shifted();
+                                var range = Range - 1.49f;
+                                if (distance < range)
+                                {
+                                    var normed = (to - from).ToVector3().normalized;
+                                    IntVec3 newTo = from + (normed * range).ToIntVec3();
+                                    to = newTo;
+                                }
 
-                    }, null, null, null);
-                }
-            };
+                                fireWallPos = to;
+                                distanceVector = (fireWallPos.Cell - Position).ToVector3Shifted();
+                            }, null, null, null, delegate { settingFireWall = false; });
+                    },
+                };
+            }
         }
     }
 }

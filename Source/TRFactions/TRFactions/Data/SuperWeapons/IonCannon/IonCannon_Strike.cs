@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using RimWorld;
 using RimWorld.Planet;
 using TeleCore;
-using TR.Satellites;
 using UnityEngine;
 using Verse;
 using Verse.Sound;

@@ -597,7 +597,6 @@ This structure has resistance to Nod weapons.</description>
 				</hub>
 				<turrets>
 					<li>
-						<canForceTarget>false</canForceTarget>
 						<turretTop>
 							<topGraphic>
 								<texPath>Buildings/Nod/Defense/Turrets/Flamer</texPath>
@@ -613,6 +612,7 @@ This structure has resistance to Nod weapons.</description>
 						<turretBurstWarmupTime>3</turretBurstWarmupTime>
 						<turretBurstCooldownTime>3</turretBurstCooldownTime>
 						<continuous>true</continuous>
+						<canForceTarget>true</canForceTarget>
 					</li>
 				</turrets>
 			</li>

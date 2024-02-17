@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Verse;
 
-namespace TR.Satellites;
+namespace TR;
 
 public class ASATNetwork : IExposable
 {

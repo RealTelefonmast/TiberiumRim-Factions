@@ -104,6 +104,8 @@
 		<defName>Nod_Hangar</defName>
 		<label>Nod vehicle hangar</label>
 		<description>This hangar is used for mechanical unit construction.</description>
+		<thingClass>TR.Building_Hangar</thingClass>
+		<tickerType>Normal</tickerType>
 		<size>(5,5)</size>
 		<minifiedDef />
 		<thingCategories Inherit="false" />
@@ -183,6 +185,13 @@
 			<li Class="TeleCore.SubMenuExtension">
 				<groupDef>Nod</groupDef>
 				<category>Processing</category>
+			</li>
+			<li Class="TeleCore.TeleDefExtension">
+				<thingGroups>
+					<groups>
+						<li>MechHangars</li>
+					</groups>
+				</thingGroups>
 			</li>
 		</modExtensions>
 	</TR.TRThingDef>

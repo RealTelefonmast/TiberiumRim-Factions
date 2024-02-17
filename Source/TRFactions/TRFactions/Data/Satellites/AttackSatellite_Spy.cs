@@ -1,6 +1,5 @@
-﻿namespace TR.Satellites
+﻿namespace TR;
+
+public class AttackSatellite_Spy : AttackSatellite
 {
-    public class AttackSatellite_Spy : AttackSatellite
-    {
-    }
 }
